@@ -1,0 +1,88 @@
+// Early Ladder Pickit
+// By: Frixionburne
+
+// =============== Armor
+// [name] == serpentskinarmor && [quality] == unique // Skin of the Vipermagi - Any
+// [name] == cuirass && [quality] == unique // Duriel's Shell - Any
+// [name] == cuirass && [quality] == unique && [flag] == ethereal // Duriel's Shell - Any Ethereal
+
+// =============== Belts
+//[name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
+//[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // Thundergod's Vigor - Any
+
+// =============== Boots
+//[name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler - Any
+//[name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // Goblin Toe
+//[name] == scarabshellboots && [quality] == unique // Sandstorm Trek - Ethereal Any
+
+// =============== Helms
+//[name] == demonhead && [quality] == unique // Andariel's Visage/Andys - Any
+//[name] == shako && [quality] == unique // Shako - Any
+
+// =============== Rings
+//[name] == ring && [quality] == unique # [itemmagicbonus] == 30 // Nagelring
+
+// =============== Orbs
+//[name] == swirlingcrystal && [quality] == unique // The Oculus
+
+// =============== Sets
+// ----- Tal Rasha's Wrappings
+//[name] == swirlingcrystal && [quality] == set # # [maxquantity] == 1
+//[name] == deathmask && [quality] == set # # [maxquantity] == 1
+//[name] == lacqueredplate && [quality] == set # # [maxquantity] == 1
+//[name] == amulet && [quality] == set # [lightresist] == 33 # # [maxquantity] == 1
+//[name] == meshbelt && [quality] == set # # [maxquantity] == 1
+
+// =============== Spirit Runes and Base
+//[name] == monarch && [quality] >= normal # ([sockets] == 4 || [sockets] == 0)  # [maxquantity] == 1
+//[type] == auricshields && [quality] == normal && [class] >= normal # [fireresist] >= 30 && ([sockets] == 0 || [sockets] == 4) # [maxquantity] == 1
+//[name] == crystalsword  && [quality] >= normal && [flag] == ethereal # [sockets] == 4 # [maxquantity] == 1
+//[name] == talrune # # [MaxQuantity] == 1
+//[name] == thulrune # # [MaxQuantity] == 1
+//[name] == ortrune # # [MaxQuantity] == 1
+//[name] == amnrune # # [MaxQuantity] == 1
+//[name] == helrune # # [MaxQuantity] == 1
+
+// =============== Insight Runes and Base
+//[name] == colossusvoulge && [quality] >= normal && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) # [maxquantity] == 1
+//[name] == ralrune # # [MaxQuantity] == 1
+//[name] == tirrune # # [MaxQuantity] == 1
+//[name] == talrune # # [MaxQuantity] == 1
+//[name] == solrune # # [MaxQuantity] == 1
+//[name] == helrune # # [MaxQuantity] == 1
+
+// =============== Enigma Runes - Jah, Ber is already picked up in runes nip
+//[name] == ithrune # # [MaxQuantity] == 1
+//[name] == helrune # # [MaxQuantity] == 1
+
+// =============== Fortitude Runes - Lo is already picked up in runes nip
+//[name] == elrune # # [MaxQuantity] == 1
+//[name] == solrune # # [MaxQuantity] == 1
+//[name] == dolrune # # [MaxQuantity] == 1
+//[name] == helrune # # [MaxQuantity] == 1
+
+// =============== Exile Runes - Vex, Ohm, Ist is already picked up in runes nip
+//[name] == dolrune # # [MaxQuantity] == 3
+//[name] == helrune # # [MaxQuantity] == 1
+
+// =============== Grief Runes and Base - Ohm, Mal is already picked up in runes nip
+//[name] == phaseblade && [quality] >= normal # [sockets] == 5 # [maxquantity] == 1
+//[name] == berserkeraxe && [quality] >= normal && [flag] != ethereal # [sockets] == 5 # [maxquantity] == 1
+//[name] == ethrune # # [MaxQuantity] == 1
+//[name] == tirrune # # [MaxQuantity] == 1
+//[name] == ralrune # # [MaxQuantity] == 1
+//[name] == helrune # # [MaxQuantity] == 1
+
+// =============== HotO Runes and Base - Vex is already picked up in runes nip
+//[name] == flail && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
+//[name] == korune # # [MaxQuantity] == 1
+//[name] == pulrune # # [MaxQuantity] == 1
+//[name] == thulrune # # [MaxQuantity] == 1
+//[name] == helrune # # [MaxQuantity] == 1
+
+// =============== CTA Runes and Base - Mal, Ist, Ohm is already picked up in runes nip
+//([name] == flail || [name] == crystalsword) && [quality] >= normal # [sockets] == 5  # [maxquantity] == 1
+//[name] == amnrune # # [MaxQuantity] == 1
+//[name] == ralrune # # [MaxQuantity] == 1
+//[name] == helrune # # [MaxQuantity] == 1
+
