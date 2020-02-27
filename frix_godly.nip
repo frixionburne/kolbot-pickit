@@ -156,47 +156,6 @@
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// >>>>>>>>>>>>>>> CIRCLETS
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-// =============== Unique
-[name] == tiara && [quality] == unique # [fireresist] == 70 && [plusdefense] == 120 // Kira's Guardian
-[name] == diadem && [quality] == unique // Griffon's Eye
-
-// =============== Rare
-[type] == circlet && [quality] == rare # [necromancerskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
-[type] == circlet && [quality] == rare # [druidskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
-[type] == circlet && [quality] == rare # [paladinskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
-[type] == circlet && [quality] == rare # [sorceressskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
-[type] == circlet && [quality] == rare # [assassinskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
-
-[type] == circlet && [quality] == rare # [sorceressskills] == 2 && [fcr] == 20 && ([maxhp] >= 30 || [maxmana] >= 60) && ([strength]+[dexterity] >= 20 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
-[type] == circlet && [quality] == rare # [necromancerskills] == 2 && [fcr] == 20 && ([maxhp] >= 30 || [maxmana] >= 60) && ([strength]+[dexterity] >= 20 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
-[type] == circlet && [quality] == rare # [paladinskills] == 2 && [fcr] == 20 && ([maxhp] >= 30 || [maxmana] >= 60) && ([strength]+[dexterity] >= 20 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
-[type] == circlet && [quality] == rare # [assassinskills] == 2 && [fcr] == 20 && ([maxhp] >= 30 || [maxmana] >= 60) && ([strength]+[dexterity] >= 20 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
-
-[type] == circlet && [quality] == rare # [amazonskills] == 2 && [frw] == 30 && ([strength]+[dexterity] >= 25 || [sockets] == 2 || [maxhp]+[maxmana] >= 50)
-[type] == circlet && [quality] == rare # [druidskills] == 2 && [itemtohitpercentperlevel] >= 1 && [frw] == 30 && ([strength]+[dexterity] >= 25 || [maxhp]+[maxmana] >= 50)
-[type] == circlet && [quality] == rare # [paladinskills] == 2 && [itemtohitpercentperlevel] >= 1 && [strength]+[dexterity] >= 25 && ([sockets] == 2 || [maxhp] >= 30)
-[type] == circlet && [quality] == rare # [barbarianskills] == 2 && [fcr] == 20 && ([strength]+[dexterity] >= 25 || [maxhp]+[maxmana] >= 50) && ([fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
-[type] == circlet && [quality] == rare # [barbarianskills] == 2 && [itemgoldbonus] >= 80 && [sockets] == 2
-
-// =============== Magic
-[type] == circlet && [quality] == magic && [flag] != ethereal # [sockets] == 3 && ([frw] == 30 || [strength] == 30 || [dexterity] == 30 || [itemmagicbonus] == 35 || [maxhp] == 100 || [fcr] == 20 || [normaldamagereduction] == 25)
-[type] == circlet && [quality] == magic && [flag] != ethereal # [amazonskills] == 2 && [frw] == 30
-
-[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [sorceressskills] == 2
-[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [necromancerskills] == 2
-[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [paladinskills] == 2
-[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [assassinskills] == 2
-
-[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && ([fireskilltab] == 3 || [coldskilltab] == 3 || [lightningskilltab] == 3)
-[type] == circlet && [quality] == magic && [flag] != ethereal # [strength] >= 15 && ([shadowdisciplinesskilltab] == 3 || [lightningskilltab] == 3)
-[type] == circlet && [quality] == magic && [flag] != ethereal # ([paladinskills] == 2 || [palicombatskilltab] == 3 || [sorceressskills] == 2 || [lightningskilltab] == 3 || [maxmana] == 120) && [normaldamagereduction] == 25
-[type] == circlet && [quality] == magic # [barbarianskills] == 2 && [itemgoldbonus] >= 80
-
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // >>>>>>>>>>>>>>> SHIELDS
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -571,7 +530,7 @@
 // =============== Unique
 [name] == ring && [quality] == unique # [itemmaxmanapercent] == 25 // SOJ - Stone of Jordan
 [name] == ring && [quality] == unique # [maxstamina] == 50 && [lifeleech] >= 5 // BK - Bul Katho's Wedding Band
-[name] == ring && [quality] == unique # [itemabsorblightpercent] >= 20 || [itemmagicbonus] >= 20 && [itemabsorblightpercent] >= 10 // Wisp Projector
+[name] == ring && [quality] == unique # [itemabsorblightpercent] >= 20 || ([itemmagicbonus] >= 20 && [itemabsorblightpercent] >= 10) // Wisp Projector
 [name] == ring && [quality] == unique # [dexterity] == 20 && [tohit] == 250 // Ravenfrost
 
 // =============== Rare
@@ -644,6 +603,48 @@
 [Name] == jewel && [quality] == magic # ([enhanceddamage] >= 40 || [tohit] == 100 || [maxdamage] >= 15) && ([maxhp] == 20 || [ias] >= 15 || [itemreqpercent] <= -15 || [strength] >= 9 || [dexterity] >= 9)
 [Name] == jewel && [quality] == magic # [maxdamage] >= 30
 [Name] == jewel && [quality] == magic # ([fireresist] == 30 || [coldresist] == 30 || [lightresist] == 30 || ([fireresist] >= 15 && [lightresist] >= 15) || [maxmana] == 20) && ([maxhp] == 20 || [fhr] == 7 || [ias] == 15 || [itemreqpercent] <= -15 || [strength] >= 9 || [dexterity] >= 9)
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// >>>>>>>>>>>>>>> CIRCLETS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// =============== Unique
+[name] == tiara && [quality] == unique # [fireresist] == 70 && [plusdefense] == 120 // Kira's Guardian
+[name] == diadem && [quality] == unique // Griffon's Eye
+
+// =============== Rare
+[type] == circlet && [quality] == rare # [necromancerskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
+[type] == circlet && [quality] == rare # [druidskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
+[type] == circlet && [quality] == rare # [paladinskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
+[type] == circlet && [quality] == rare # [sorceressskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
+[type] == circlet && [quality] == rare # [assassinskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
+
+[type] == circlet && [quality] == rare # [sorceressskills] == 2 && [fcr] == 20 && ([maxhp] >= 30 || [maxmana] >= 60) && ([strength]+[dexterity] >= 20 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
+[type] == circlet && [quality] == rare # [necromancerskills] == 2 && [fcr] == 20 && ([maxhp] >= 30 || [maxmana] >= 60) && ([strength]+[dexterity] >= 20 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
+[type] == circlet && [quality] == rare # [paladinskills] == 2 && [fcr] == 20 && ([maxhp] >= 30 || [maxmana] >= 60) && ([strength]+[dexterity] >= 20 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
+[type] == circlet && [quality] == rare # [assassinskills] == 2 && [fcr] == 20 && ([maxhp] >= 30 || [maxmana] >= 60) && ([strength]+[dexterity] >= 20 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
+
+[type] == circlet && [quality] == rare # [amazonskills] == 2 && [frw] == 30 && ([strength]+[dexterity] >= 25 || [sockets] == 2 || [maxhp]+[maxmana] >= 50)
+[type] == circlet && [quality] == rare # [druidskills] == 2 && [itemtohitpercentperlevel] >= 1 && [frw] == 30 && ([strength]+[dexterity] >= 25 || [maxhp]+[maxmana] >= 50)
+[type] == circlet && [quality] == rare # [paladinskills] == 2 && [itemtohitpercentperlevel] >= 1 && [strength]+[dexterity] >= 25 && ([sockets] == 2 || [maxhp] >= 30)
+[type] == circlet && [quality] == rare # [barbarianskills] == 2 && [fcr] == 20 && ([strength]+[dexterity] >= 25 || [maxhp]+[maxmana] >= 50) && ([fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
+[type] == circlet && [quality] == rare # [barbarianskills] == 2 && [itemgoldbonus] >= 80 && [sockets] == 2
+
+// =============== Magic
+[type] == circlet && [quality] == magic && [flag] != ethereal # [sockets] == 3 && ([frw] == 30 || [strength] == 30 || [dexterity] == 30 || [itemmagicbonus] == 35 || [maxhp] == 100 || [fcr] == 20 || [normaldamagereduction] == 25)
+[type] == circlet && [quality] == magic && [flag] != ethereal # [amazonskills] == 2 && [frw] == 30
+
+[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [sorceressskills] == 2
+[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [necromancerskills] == 2
+[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [paladinskills] == 2
+[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [assassinskills] == 2
+
+[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && ([fireskilltab] == 3 || [coldskilltab] == 3 || [lightningskilltab] == 3)
+[type] == circlet && [quality] == magic && [flag] != ethereal # [strength] >= 15 && ([shadowdisciplinesskilltab] == 3 || [lightningskilltab] == 3)
+[type] == circlet && [quality] == magic && [flag] != ethereal # ([paladinskills] == 2 || [palicombatskilltab] == 3 || [sorceressskills] == 2 || [lightningskilltab] == 3 || [maxmana] == 120) && [normaldamagereduction] == 25
+[type] == circlet && [quality] == magic # [barbarianskills] == 2 && [itemgoldbonus] >= 80
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // >>>>>>>>>>>>>>> RUNES
