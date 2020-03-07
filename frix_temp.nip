@@ -248,8 +248,8 @@
 // >>>>>>>>>>>>>>> ASSASSIN
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[name] == bladetalons && [quality] == magic # ([assassinskills]+[skilllightningsentry] == 5 || [trapsskilltab]+[skilllightningsentry] == 6) && [ias] >= 10
-[type] == handtohand && [quality] == magic # ([assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4)
+[name] == bladetalons && [quality] == magic # ([assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4) && [ias] >= 10
+([type] == handtohand || [type] == assassinclaw) && [quality] == magic # ([assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4)
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -274,9 +274,7 @@
 // =============== Magic
 //[name] == smallcharm && [quality] == magic # [itemgoldbonus] == 10
 [name] == smallcharm && [quality] == magic # [itemmagicbonus] == 7
-[name] == smallcharm && [quality] == magic # [maxhp] == 20
-
-[name] == smallcharm && [quality] == magic # [poisonmaxdam] > 290
+//[name] == smallcharm && [quality] == magic # [maxhp] == 20
 
 //[name] == grandcharm && [quality] == magic # [elementalskilltab] == 1
 //[name] == grandcharm && [quality] == magic # [poisonandboneskilltab] == 1
@@ -287,7 +285,7 @@
 //[name] == grandcharm && [quality] == magic # [coldskilltab] == 1
 //[name] == grandcharm && [quality] == magic # [fireskilltab] == 1
 //[name] == grandcharm && [quality] == magic # [palicombatskilltab] == 1
-[name] == grandcharm && [quality] == magic # [elementalskilltab] == 1 && [maxhp] >= 20
-[name] == grandcharm && [quality] == magic # [trapsskilltab] == 1 && [maxhp] >= 20
+//[name] == grandcharm && [quality] == magic # [elementalskilltab] == 1 && [maxhp] >= 20
+//[name] == grandcharm && [quality] == magic # [trapsskilltab] == 1 && [maxhp] >= 20
 
 //[name] == grandcharm && [quality] == magic # [itemgoldbonus] == 40
