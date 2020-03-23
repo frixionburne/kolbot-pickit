@@ -2,36 +2,36 @@
 // By: Frixionburne
 
 // =============== Armor
-// [name] == serpentskinarmor && [quality] == unique // Skin of the Vipermagi - Any
-// [name] == cuirass && [quality] == unique // Duriel's Shell - Any
+[name] == serpentskinarmor && [quality] == unique // Skin of the Vipermagi - Any
+[name] == cuirass && [quality] == unique // Duriel's Shell - Any
 // [name] == cuirass && [quality] == unique && [flag] == ethereal // Duriel's Shell - Any Ethereal
 
 // =============== Belts
-//[name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
+[name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
 //[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // Thundergod's Vigor - Any
 
 // =============== Boots
-//[name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler - Any
+[name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler - Any
 //[name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // Goblin Toe
-//[name] == scarabshellboots && [quality] == unique // Sandstorm Trek - Ethereal Any
+[name] == scarabshellboots && [quality] == unique // Sandstorm Trek - Ethereal Any
 
 // =============== Helms
-//[name] == demonhead && [quality] == unique // Andariel's Visage/Andys - Any
-//[name] == shako && [quality] == unique // Shako - Any
+[name] == demonhead && [quality] == unique // Andariel's Visage/Andys - Any
+[name] == shako && [quality] == unique // Shako - Any
 
 // =============== Rings
-//[name] == ring && [quality] == unique # [itemmagicbonus] == 30 // Nagelring
+[name] == ring && [quality] == unique # [itemmagicbonus] == 30 // Nagelring
 
 // =============== Orbs
-//[name] == swirlingcrystal && [quality] == unique // The Oculus
+[name] == swirlingcrystal && [quality] == unique // The Oculus
 
 // =============== Sets
 // ----- Tal Rasha's Wrappings
-//[name] == swirlingcrystal && [quality] == set # # [maxquantity] == 1
-//[name] == deathmask && [quality] == set # # [maxquantity] == 1
-//[name] == lacqueredplate && [quality] == set # # [maxquantity] == 1
-//[name] == amulet && [quality] == set # [lightresist] == 33 # # [maxquantity] == 1
-//[name] == meshbelt && [quality] == set # # [maxquantity] == 1
+[name] == swirlingcrystal && [quality] == set # # [maxquantity] == 1
+[name] == deathmask && [quality] == set # # [maxquantity] == 1
+[name] == lacqueredplate && [quality] == set # # [maxquantity] == 1
+[name] == amulet && [quality] == set # [lightresist] == 33 # # [maxquantity] == 1
+[name] == meshbelt && [quality] == set # # [maxquantity] == 1
 
 // =============== Spirit Runes and Base
 //[name] == monarch && [quality] >= normal # ([sockets] == 4 || [sockets] == 0)  # [maxquantity] == 1
