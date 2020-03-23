@@ -100,9 +100,9 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Armor
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 740 // Eth Buggable
-([name] == archonplate || [name] == sacredarmor) && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 740 // Eth Buggable
-
+// [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 740 // Eth Buggable
+// ([name] == archonplate || [name] == sacredarmor) && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 740 // Eth Buggable
+// [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 //  Eth Bugged 1k+ def
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // >>>>>>>>>>>>>>> ARMOR
@@ -248,8 +248,8 @@
 // >>>>>>>>>>>>>>> ASSASSIN
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[name] == bladetalons && [quality] == magic # ([assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4) && [ias] >= 10
-([type] == handtohand || [type] == assassinclaw) && [quality] == magic # ([assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4)
+// [name] == bladetalons && [quality] == magic # ([assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4) && [ias] >= 10
+// ([type] == handtohand || [type] == assassinclaw) && [quality] == magic # ([assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4)
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

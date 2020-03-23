@@ -41,7 +41,7 @@
 // Archon Plate       410       524          615            786          922        1179
 // Kraken Shell       417       523          625            784          937        1176
 // Hellforge Plate    421       530          631            795          946        1192
-// Laquered Plate     433       541          649            811          973        1216
+// Lacquered Plate    433       541          649            811          973        1216
 // Shadow Plate       446       557          669            835          1003       1252
 // Sacred Armor       487       600          730            900          1095       1350
 
@@ -62,7 +62,6 @@
 [name] == sacredarmor && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 900 // 900 Max
 
 [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 4 && [defense] >= 1000 //  Eth Bugged 1k+ def
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 //  Eth Bugged 1k+ def
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
