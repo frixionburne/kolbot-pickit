@@ -35,23 +35,24 @@
 [name] == meshbelt && [quality] == set // # # [maxquantity] == 1
 
 // =============== Spirit Runes and Base
-[name] == monarch && [quality] >= normal # ([sockets] == 4 || [sockets] == 0)  # [maxquantity] == 1
+[name] == monarch && [quality] <= superior # ([sockets] == 4)  # [maxquantity] == 1
 //[type] == auricshields && [quality] == normal && [class] >= normal # [fireresist] >= 30 && ([sockets] == 0 || [sockets] == 4) # [maxquantity] == 1
-[name] == crystalsword  && [quality] >= normal # [sockets] == 4 # [maxquantity] == 1
-[name] == talrune # # [MaxQuantity] == 2
-[name] == thulrune # # [MaxQuantity] == 2
-[name] == ortrune # # [MaxQuantity] == 2
-[name] == amnrune # # [MaxQuantity] == 2
-[name] == helrune # # [MaxQuantity] == 2
+// [name] == crystalsword  && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
+// [name] == talrune # # [MaxQuantity] == 2
+// [name] == thulrune # # [MaxQuantity] == 2
+// [name] == ortrune # # [MaxQuantity] == 2
+// [name] == amnrune # # [MaxQuantity] == 2
+// [name] == helrune # # [MaxQuantity] == 2
 
 // =============== Insight Runes and Base
-[name] == colossusvoulge && [quality] >= normal && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) # [maxquantity] == 1
-[name] == thresher && [quality] >= normal && # [sockets] == 4 # [maxquantity] == 1
-[name] == ralrune # # [MaxQuantity] == 2
-[name] == tirrune # # [MaxQuantity] == 2
-[name] == talrune # # [MaxQuantity] == 2
-[name] == solrune # # [MaxQuantity] == 2
-[name] == helrune # # [MaxQuantity] == 2
+[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) # [maxquantity] == 1
+[name] == thresher && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
+[name] == crypticaxe && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
+// [name] == ralrune # # [MaxQuantity] == 2
+// [name] == tirrune # # [MaxQuantity] == 2
+// [name] == talrune # # [MaxQuantity] == 2
+// [name] == solrune # # [MaxQuantity] == 2
+// [name] == helrune # # [MaxQuantity] == 2
 
 // =============== Enigma Runes - Jah, Ber is already picked up in runes nip
 //[name] == ithrune # # [MaxQuantity] == 1
@@ -76,14 +77,14 @@
 //[name] == helrune # # [MaxQuantity] == 1
 
 // =============== HotO Runes and Base - Vex is already picked up in runes nip
-[name] == flail && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
-[name] == korune # # [MaxQuantity] == 1
-[name] == pulrune # # [MaxQuantity] == 1
-[name] == thulrune # # [MaxQuantity] == 1
-[name] == helrune # # [MaxQuantity] == 1
+//[name] == flail && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
+//[name] == korune # # [MaxQuantity] == 1
+//[name] == pulrune # # [MaxQuantity] == 1
+//[name] == thulrune # # [MaxQuantity] == 1
+//[name] == helrune # # [MaxQuantity] == 1
 
 // =============== CTA Runes and Base - Mal, Ist, Ohm is already picked up in runes nip
-([name] == flail || [name] == crystalsword) && [quality] >= normal # [sockets] == 5  # [maxquantity] == 1
+//([name] == flail || [name] == crystalsword) && [quality] >= normal # [sockets] == 5  # [maxquantity] == 1
 //[name] == amnrune # # [MaxQuantity] == 1
 //[name] == ralrune # # [MaxQuantity] == 1
 //[name] == helrune # # [MaxQuantity] == 1
