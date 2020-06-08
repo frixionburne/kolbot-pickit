@@ -163,7 +163,7 @@
 [name] == spikedshield && [quality] == unique # [enhanceddefense] == 60 // Swordback Hold
 [name] == spikedshield && [quality] == unique && [flag] == ethereal # [enhanceddefense] == 60 // Swordback Hold - Ethereal
 [name] == barbedshield && [quality] == unique && [flag] == identified # [enhanceddefense] == 60 // && ([defense] == 134 || [defense] == 197) //  Swordback Hold - Exceptional Upgrade (noneth/eth)
-[name] == bladebarrier && [quality] == unique && [flag] == identified # [defense] == 270 || [defense] == 401 // Swordback Hold - Elite Upgrade (noneth/eth)
+[name] == bladebarrier && [quality] == unique && [flag] == identified # [enhanceddefense] == 60 && ([defense] == 270 || [defense] == 401) // Swordback Hold - Elite Upgrade (noneth/eth)
 
 [name] == monarch && [quality] == unique # [defense] == 148 // Stormshield
 [name] == trollnest && [quality] == unique && [flag] == ethereal # [sockets] == 3 // Head Hunter's Glory - Ethereal
@@ -533,7 +533,7 @@
 // =============== Rare
 [name] == ring && [quality] == rare # [fcr] == 10 && [tohit] >= 90 && [maxhp] >= 30 && [maxmana] >= 60 //bvc ring
 [name] == ring && [quality] == rare # [tohit] >= 100 && [strength]+[dexterity] >= 30 //dual stat melee
-[type] == ring && [quality] == rare # [fcr] == 10 && ([strength] >= 20 || [strength]+[dexterity] >= 15 && ([maxhp] >= 30 || [maxmana] >= 60) || [maxhp] >= 30 && [maxmana] >= 60)
+[type] == ring && [quality] == rare # [fcr] == 10 && ([strength] >= 20 || [strength]+[dexterity] >= 15) && ([maxhp] >= 30 || [maxmana] >= 60)
 [name] == ring && [quality] == rare # [fcr] == 10 && [dexterity] >= 12 && [maxhp] >= 30 && ([fireresist] >= 20 || [lightresist] >= 20 || ([fireresist] >= 9 && [lightresist] >= 9)) //hdin ring
 
 // =============== Magic

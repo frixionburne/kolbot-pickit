@@ -21,14 +21,14 @@
 //[name] == flawlessemerald # # [maxquantity] == 1 // 2 Cham -> Zod
 
 // =============== Armor Upgrade Normal -> Exceptional
-//[name] == talrune # # [MaxQuantity] == 1
-//[name] == shaelrune # # [MaxQuantity] == 3
-//[name] == flawlessdiamond # # [maxquantity] == 3
+// [name] == talrune # # [MaxQuantity] == 2
+// [name] == shaelrune # # [MaxQuantity] == 2
+// [name] == flawlessdiamond # # [maxquantity] == 6
 
 // =============== Armor Upgrade Exceptional -> Elite
-//[name] == korune # # [MaxQuantity] == 4
-//[name] == lemrune # # [MaxQuantity] == 2
-//[name] == flawlessdiamond # # [maxquantity] == 3
+// [name] == korune # # [MaxQuantity] == 1
+// [name] == lemrune # # [MaxQuantity] == 2
+// [name] == flawlessdiamond # # [maxquantity] == 6
 
 // =============== Armor Socketing
 // [name] == talrune # # [MaxQuantity] == 2
@@ -62,18 +62,18 @@
 //[name] == nefrune # # [MaxQuantity] == 1
 //[name] == ethrune # # [MaxQuantity] == 1
 //[name] == ithrune # # [MaxQuantity] == 1
-//[name] == talrune # # [MaxQuantity] == 1
+//[name] == talrune # # [MaxQuantity] == 6
 //[name] == ralrune # # [MaxQuantity] == 1
 //[name] == ortrune # # [MaxQuantity] == 2
-//[name] == thulrune # # [MaxQuantity] == 2
+// [name] == thulrune # # [MaxQuantity] == 5
 //[name] == amnrune # # [MaxQuantity] == 1
 //[name] == solrune # # [MaxQuantity] == 2
 //[name] == shaelrune # # [MaxQuantity] == 1
 //[name] == dolrune # # [MaxQuantity] == 1
-//[name] == helrune # # [MaxQuantity] == 2
+// [name] == helrune # # [MaxQuantity] == 10
 //[name] == iorune # # [MaxQuantity] == 1
 //[name] == lumrune # # [MaxQuantity] == 1
-//[name] == korune # # [MaxQuantity] == 1
+// [name] == korune # # [MaxQuantity] == 5
 //[name] == falrune # # [MaxQuantity] == 1
 //[name] == lemrune # # [MaxQuantity] == 1
 //[name] == pulrune # # [MaxQuantity] == 1
@@ -207,6 +207,7 @@
 
 // =============== Unique
 //[name] == tyrantclub && [quality] == unique && [flag] != ethereal // Demon Limb
+//[name] == tyrantclub && [quality] == unique && [flag] != ethereal # [enhanceddamage] >= 230 && [fireresist] >= 20 && [lifeleech] >= 13 // Perfect Demon Limb
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -273,7 +274,7 @@
 
 // =============== Magic
 //[name] == smallcharm && [quality] == magic # [itemgoldbonus] == 10
-[name] == smallcharm && [quality] == magic # [itemmagicbonus] == 7
+//[name] == smallcharm && [quality] == magic # [itemmagicbonus] == 7
 //[name] == smallcharm && [quality] == magic # [maxhp] == 20
 
 //[name] == grandcharm && [quality] == magic # [elementalskilltab] == 1
