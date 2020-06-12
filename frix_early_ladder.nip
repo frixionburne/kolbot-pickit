@@ -74,8 +74,7 @@
 // =============== Insight Runes and Base
 [name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 0 // # [maxquantity] == 1
 [name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
-[name] == thresher && [quality] <= superior # [sockets] == 4 // # [maxquantity] == 1
-[name] == crypticaxe && [quality] <= superior # [sockets] == 4 // # [maxquantity] == 1
+[type] == polearm && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 4
 // [name] == ralrune # # [MaxQuantity] == 2
 // [name] == tirrune # # [MaxQuantity] == 2
 // [name] == talrune # # [MaxQuantity] == 2
@@ -83,36 +82,36 @@
 // [name] == helrune # # [MaxQuantity] == 2
 
 // =============== Enigma Runes - Jah, Ber is already picked up in runes nip
-//[name] == ithrune # # [MaxQuantity] == 1
-//[name] == helrune # # [MaxQuantity] == 1
+// [name] == ithrune # # [MaxQuantity] == 1
+// [name] == helrune # # [MaxQuantity] == 1
 
 // =============== Fortitude Runes - Lo is already picked up in runes nip
-//[name] == elrune # # [MaxQuantity] == 1
-//[name] == solrune # # [MaxQuantity] == 1
-//[name] == dolrune # # [MaxQuantity] == 1
-//[name] == helrune # # [MaxQuantity] == 1
+// [name] == elrune # # [MaxQuantity] == 1
+// [name] == solrune # # [MaxQuantity] == 1
+// [name] == dolrune # # [MaxQuantity] == 1
+// [name] == helrune # # [MaxQuantity] == 1
 
 // =============== Exile Runes - Vex, Ohm, Ist is already picked up in runes nip
-//[name] == dolrune # # [MaxQuantity] == 3
-//[name] == helrune # # [MaxQuantity] == 1
+// [name] == dolrune # # [MaxQuantity] == 3
+// [name] == helrune # # [MaxQuantity] == 1
 
 // =============== Grief Runes and Base - Ohm, Mal is already picked up in runes nip
 [name] == phaseblade && [quality] >= normal # [sockets] == 5 // # [maxquantity] == 1
-//[name] == ethrune # # [MaxQuantity] == 1
-//[name] == tirrune # # [MaxQuantity] == 1
-//[name] == ralrune # # [MaxQuantity] == 1
-//[name] == helrune # # [MaxQuantity] == 1
+// [name] == ethrune # # [MaxQuantity] == 1
+// [name] == tirrune # # [MaxQuantity] == 1
+// [name] == ralrune # # [MaxQuantity] == 1
+// [name] == helrune # # [MaxQuantity] == 1
 
 // =============== HotO Runes and Base - Vex is already picked up in runes nip
 [name] == flail && [quality] <= superior # [sockets] == 4 // # [maxquantity] == 1
-//[name] == korune # # [MaxQuantity] == 1
-//[name] == pulrune # # [MaxQuantity] == 1
-//[name] == thulrune # # [MaxQuantity] == 1
-//[name] == helrune # # [MaxQuantity] == 1
+// [name] == korune # # [MaxQuantity] == 1
+// [name] == pulrune # # [MaxQuantity] == 1
+// [name] == thulrune # # [MaxQuantity] == 1
+// [name] == helrune # # [MaxQuantity] == 1
 
 // =============== CTA Runes and Base - Mal, Ist, Ohm is already picked up in runes nip
 ([name] == flail || [name] == crystalsword) && [quality] >= normal # [sockets] == 5  // # [maxquantity] == 1
-//[name] == amnrune # # [MaxQuantity] == 1
-//[name] == ralrune # # [MaxQuantity] == 1
-//[name] == helrune # # [MaxQuantity] == 1
+// [name] == amnrune # # [MaxQuantity] == 1
+// [name] == ralrune # # [MaxQuantity] == 1
+// [name] == helrune # # [MaxQuantity] == 1
 

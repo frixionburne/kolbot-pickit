@@ -86,7 +86,7 @@
 [name] == demonhideboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 // && [defense] == 48 // Hotspur - Exceptional Upgrade
 [name] == wyrmhideboots && [quality] == unique && [flag] != ethereal # [defense] == 80 // Hotspur - Elite Upgrade
 
-//[name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // Goblin Toe
+// [name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // Goblin Toe
 [name] == battleboots && [quality] == unique && [flag] == identified # [enhanceddefense] == 60 // && [defense] == 90 // Goblin Toe - Exceptional Upgrade
 [name] == mirroredboots && [quality] == unique && [flag] == identified # [enhanceddefense] == 60 && [defense] == 123 // Goblin Toe - Elite Upgrade
 
