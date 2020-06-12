@@ -130,7 +130,7 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Unique
-[name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Any Arachnid Mesh
+[name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
 //[name] == battlebelt  && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170 // Snowclash
 //[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // Thundergod's Vigor
 //[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // Nosferatu's Coil
@@ -167,7 +167,7 @@
 // =============== Unique
 //[name] == sallet && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 210 // Rockstopper
 //[name] == bonevisage && [quality] == unique # [sockets] == 2 && [strength] == 35 // Giant Skull
-[name] == demonhead && [quality] == unique && [flag] != ethereal // Andariel's Visage/Andys - Any
+[name] == demonhead && [quality] == unique // Andariel's Visage/Andys - Any
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -273,7 +273,7 @@
 //[name] == ring && [quality] == unique # [itemmagicbonus] == 30 // Nagelring
 //[name] == ring && [quality] == unique # [maxhp] == 40 && [magicdamagereduction] == 15 // Dwarf Star
 //[name] == ring && [quality] == unique # [maxstamina] == 50 && [lifeleech] >= 3 // Any BK
-//[name] == ring && [quality] == unique # [itemabsorblightpercent] >= 10 // Any Wisp
+[name] == ring && [quality] == unique # [itemabsorblightpercent] >= 10 // Any Wisp
 //[name] == ring && [quality] == unique # [dexterity] == 20 // Any 20dex Raven
 
 
@@ -286,9 +286,9 @@
 
 // =============== Magic
 //[name] == smallcharm && [quality] == magic # [itemgoldbonus] == 10
-//[name] == smallcharm && [quality] == magic # [itemmagicbonus] == 7
-//[name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 15
-//[name] == smallcharm && [quality] == magic # [maxhp] == 20
+[name] == smallcharm && [quality] == magic # [itemmagicbonus] == 7
+[name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 15
+[name] == smallcharm && [quality] == magic # [maxhp] == 20
 
 //[name] == grandcharm && [quality] == magic # [elementalskilltab] == 1
 //[name] == grandcharm && [quality] == magic # [poisonandboneskilltab] == 1

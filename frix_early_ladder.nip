@@ -10,6 +10,8 @@
 // =============== Shields
 [name] == monarch && [quality] == unique // Stormshield
 [name] == gildedshield && [quality] == unique // Herald of Zakarum
+[name] == roundshield && [quality] == unique // Moser's Blessed Circle
+[name] == grimshield && [quality] == unique // Lidless Wall
 
 // =============== Belts
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
@@ -18,14 +20,21 @@
 // =============== Daggers
 [name] == boneknife && [quality] == unique // Wizardspike
 
+// =============== Gloves
+[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal // Dracul's Grasp/Dracs - Any
+[name] == chaingloves && [quality] == unique && [flag] != ethereal  // Chance Guard - Any
+[name] == lightgauntlets && [quality] == unique && [flag] != ethereal // Magefist - Any
+[name] == heavybracers && [quality] == set // Trang's Gloves
+
 // =============== Boots
 [name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler - Any
-[name] == lightplatedboots && [quality] == unique && [flag] != ethereal // Goblin Toe
-[name] == scarabshellboots && [quality] == unique // Sandstorm Trek - Ethereal Any
+[name] == lightplatedboots && [quality] == unique && [flag] != ethereal // Goblin Toe - Any
+[name] == scarabshellboots && [quality] == unique // Sandstorm Trek - Any
 
 // =============== Helms
 [name] == demonhead && [quality] == unique // Andariel's Visage/Andys - Any
-[name] == shako && [quality] == unique // Shako - Any
+[name] == shako && [quality] == unique  && [flag] != ethereal // Shako - Any
+[name] == grimhelm && [quality] == unique // Vampire Gaze - Any
 
 // =============== Rings
 [name] == ring && [quality] == unique # [itemmagicbonus] >= 20 // Nagelring - Any
