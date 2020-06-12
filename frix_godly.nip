@@ -488,7 +488,6 @@
 [name] == smallcharm && [quality] == magic # [maxdamage] == 4 && [tohit] == 20
 [name] == smallcharm && [quality] == magic # [maxhp] == 20 && ([coldmindam] == 10 && [coldmaxdam] == 20 || [lightmaxdam] == 71 || [firemindam] == 19 && [firemaxdam] == 29)
 [name] == smallcharm && [quality] == magic # [lightmaxdam] == 99 || [firemindam] == 26 && [firemaxdam] == 42 || [firemindam] == 19 && [firemaxdam] == 29 && [lightmaxdam] == 28 || [firemindam] == 7 && [firemaxdam] == 13 && [lightmaxdam] == 71
-[name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 15
 [name] == smallcharm && [quality] == magic # [maxhp] == 20 && ([fireresist] > 3 && [lightresist] > 3 || [fireresist] > 9 || [lightresist] > 9 || [coldresist] > 9)
 [name] == smallcharm && [quality] == magic # [maxhp] >= 19 && ([fireresist] == 5 && [lightresist] == 5 || [fireresist] == 11 || [lightresist] == 11 || [coldresist] == 11)
 [name] == smallcharm && [quality] == magic # ([tohit] >= 36 || [maxdamage] == 3 || [maxmana] >= 17 || [fireresist] >= 11 || [coldresist] >= 11 || [lightresist] >= 11 || [fireresist] == 5 && [lightresist] == 5) && ([maxhp] >= 20 || [fhr] == 5 || [frw] == 3)

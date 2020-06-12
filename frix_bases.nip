@@ -112,8 +112,10 @@
 // >>>>>>>>>>>>>>> POLEARMS
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[type] == polearm && [quality] <= superior && [flag] == ethereal && [class] == elite # [sockets] == 4
-[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddamage] == 15
+[type] == polearm && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 4 && [enhanceddamage] == 15
+[type] == polearm && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 5 && [enhanceddamage] == 15
+[type] == polearm && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 6 && [enhanceddamage] == 15
+[name] == colossusvoulge && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddamage] == 15
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
