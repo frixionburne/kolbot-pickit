@@ -132,13 +132,12 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Unique
-[name] == grandcrown && [quality] == unique && [flag] != ethereal # [itemgoldbonus] >= 100 && [enhanceddefense] >= 200 && [lifeleech] >= 12 // Crown of Thieves
-[name] == grandcrown && [quality] == unique && [flag] == ethereal # [itemgoldbonus] >= 100 // // Crown of Thieves - Ethereal
+[name] == grandcrown && [quality] == unique # [itemgoldbonus] >= 100 && [enhanceddefense] >= 200 && [lifeleech] >= 12 // Crown of Thieves
 [name] == grimhelm && [quality] == unique && [flag] == ethereal # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20 // Vampire Gaze - Ethereal
 [name] == shako && [quality] == unique && [flag] != ethereal # [defense] == 141 // Harlequin Crest/Shako
 [name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15 // Nightwing's Veil
 [name] == demonhead && [quality] == unique && [flag] != ethereal # [strength] == 30 && [enhanceddefense] == 150 // Andariel's Visage
-[name] == demonhead && [quality] == unique && [flag] == ethereal // Andariel's Visage/Andys - Ethereal
+[name] == demonhead && [quality] == unique && [flag] == ethereal // Andariel's Visage/Andys - Ethereal Any
 [name] == corona && [quality] == unique // Crown of Ages
 
 // =============== Rare
