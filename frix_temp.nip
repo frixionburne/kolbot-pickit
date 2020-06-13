@@ -110,10 +110,10 @@
 [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 1k+ def 3soc
 
 // =============== Polearms
-[type] == polearm && [quality] <= superior && [flag] == ethereal && [class] == elite # [sockets] == 4
+// [type] == polearm && [quality] <= superior && [flag] == ethereal && [class] == elite # [sockets] == 4
 
 // =============== Shields
-[type] == auricshields && ([quality] == normal || [quality] == superior) && [class] >= normal # [fireresist] >= 30 && [sockets] == 4 // # [maxquantity] == 1
+// [type] == auricshields && ([quality] == normal || [quality] == superior) && [class] >= normal # [fireresist] >= 30 && [sockets] == 4 // # [maxquantity] == 1
 
 // =============== Maces
 [name] == flail && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
@@ -154,8 +154,8 @@
 [name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler
 
 // =============== Rare
-// [type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 30 && [fhr] == 10 && [fireresist] >= 20 && [coldresist] >= 20 && [lightresist] >= 20
-// [type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 30 && [fhr] == 10 && [maxmana] >= 25 && [fireresist]+[coldresist]+[lightresist] >= 40
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 30 && [fhr] == 10 && [fireresist] >= 20 && [coldresist] >= 20 && [lightresist] >= 20
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 30 && [fhr] == 10 && [maxmana] >= 25 && [fireresist]+[coldresist]+[lightresist] >= 40
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
