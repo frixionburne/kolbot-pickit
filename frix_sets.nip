@@ -7,14 +7,14 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Tal Rasha's Wrappings
-//[name] == swirlingcrystal && [quality] == set # [skilllightningmastery] == 2 && [skillfiremastery] == 2 && [skillcoldmastery] == 2
-//[name] == deathmask && [quality] == set # [defense] == 131
+[name] == swirlingcrystal && [quality] == set # [skilllightningmastery] == 2 && [skillfiremastery] == 2 && [skillcoldmastery] == 2
+[name] == deathmask && [quality] == set # [defense] == 131
 [name] == lacqueredplate && [quality] == set # [defense] == 541
-//[name] == amulet && [quality] == set # [lightresist] == 33
+[name] == amulet && [quality] == set # [lightresist] == 33
 [name] == meshbelt && [quality] == set # [itemmagicbonus] == 15 && [defense] == 40
 
 // =============== Aldur's Watchtower
-//[name] == battleboots && [quality] == set # [defense] == 47 && [fireresist] == 50
+[name] == battleboots && [quality] == set # [defense] == 47 && [fireresist] == 50
 
 // =============== Immortal King
 //[name] == warboots && [quality] == set

@@ -1,56 +1,10 @@
 // Temp Pickit
 // By: Frixionburne
 
-// =============== Rune Cubing Gems
-// [name] == flaweddiamond # # [maxquantity] == 4 // 2 Pul -> Um
-// [name] == topaz # # [maxquantity] == 5 // 2 Um -> Mal
-// [name] == amethyst # # [maxquantity] == 3 // 2 Mal -> Ist
-// [name] == sapphire # # [maxquantity] == 4 // 2 Ist -> Gul
-// [name] == ruby # # [maxquantity] == 2 // 2 Gul -> Vex
-// [name] == emerald # # [maxquantity] == 2 // 2 Vex -> Ohm
-// [name] == diamond # # [maxquantity] == 1 // 2 Ohm -> Lo
-// [name] == flawlesstopaz # # [maxquantity] == 1 // 2 Lo -> Sur
-// [name] == flawlessamethyst # # [maxquantity] == 1 // 2 Sur -> Ber
-// [name] == flawlesssapphire # # [maxquantity] == 1 // 2 Ber -> Jah
-// [name] == flawlessruby # # [maxquantity] == 1 // 2 Jah -> Cham
-// [name] == flawlessemerald # # [maxquantity] == 1 // 2 Cham -> Zod
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// >>>>>>>>>>>>>>> RUNES
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-// =============== Armor Upgrade Normal -> Exceptional
-// [name] == talrune # # [MaxQuantity] == 1
-// [name] == shaelrune # # [MaxQuantity] == 1
-// [name] == flawlessdiamond # # [maxquantity] == 1
-
-// =============== Armor Upgrade Exceptional -> Elite
-// [name] == korune # # [MaxQuantity] == 1
-// [name] == lemrune # # [MaxQuantity] == 2
-// [name] == flawlessdiamond # # [maxquantity] == 6
-
-// =============== Armor Socketing
-// [name] == talrune # # [MaxQuantity] == 2
-// [name] == thulrune # # [MaxQuantity] == 5
-// [name] == flawlesstopaz # # [maxquantity] == 6
-
-// =============== Shield Socketing
-// [name] == talrune # # [MaxQuantity] == 1
-// [name] == amnrune # # [MaxQuantity] == 1
-// [name] == flawlessruby # # [maxquantity] == 3
-
-// =============== Weapon Upgrade Normal -> Exceptional
-// [name] == ralrune # # [MaxQuantity] == 1
-// [name] == solrune # # [MaxQuantity] == 1
-// [name] == flawlessemerald # # [maxquantity] == 3
-
-// =============== Weapon Upgrade Exceptional -> Elite
-// [name] == lumrune # # [MaxQuantity] == 1
-// [name] == pulrune # # [MaxQuantity] == 1
-// [name] == flawlessemerald # # [maxquantity] == 3
-
-// =============== Weapon Socketing
-// [name] == ralrune # # [MaxQuantity] == 1
-// [name] == amnrune # # [MaxQuantity] == 1
-// [name] == flawlessamethyst # # [maxquantity] == 1
-
-// =============== Runes
 // [name] == elrune # # [MaxQuantity] == 1
 // [name] == eldrune # # [MaxQuantity] == 1
 // [name] == tirrune # # [MaxQuantity] == 1
@@ -75,45 +29,20 @@
 [name] == umrune // # # [MaxQuantity] == 1
 [name] == malrune // # # [MaxQuantity] == 1
 
-// =============== Gems
-// [name] == flawlessemerald
-// [name] == flawlessdiamond
-// [name] == flawlessruby
-// [name] == flawlesssapphire
-// [name] == flawlesstopaz
-// [name] == flawlessamethyst
-// [name] == flawlessskull
-
-// =============== Keys
-// [name] == keyofhate # # [maxquantity] == 3
-// [name] == keyofterror # # [maxquantity] == 3
-// [name] == keyofdestruction # # [maxquantity] == 3
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// >>>>>>>>>>>>>>> SETS
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-// =============== Tal Rasha's Wrappings
-// [name] == swirlingcrystal && [quality] == set // # # [maxquantity] == 1
-// [name] == deathmask && [quality] == set // # # [maxquantity] == 1
-[name] == lacqueredplate && [quality] == set // # # [maxquantity] == 1
-[name] == amulet && [quality] == set # [lightresist] == 33 // # [maxquantity] == 1
-// [name] == meshbelt && [quality] == set // # # [maxquantity] == 1
-
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // >>>>>>>>>>>>>>> BASES
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Armor
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 700 // Eth Buggable
+[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 750 // Eth Buggable
 [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 1k+ def 3soc
 
 // =============== Polearms
 // [type] == polearm && [quality] <= superior && [flag] == ethereal && [class] == elite # [sockets] == 4
 
 // =============== Shields
-// [type] == auricshields && ([quality] == normal || [quality] == superior) && [class] >= normal # [fireresist] >= 30 && [sockets] == 4 // # [maxquantity] == 1
+[type] == auricshields && ([quality] == normal || [quality] == superior) && [class] >= normal # [fireresist] >= 45 && [sockets] == 4 // # [maxquantity] == 1
 
 // =============== Maces
 [name] == flail && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
@@ -150,12 +79,8 @@
 // =============== Unique
 // [name] == boneweaveboots && [quality] == unique && [flag] != ethereal # [strength] == 20 // Marrowalk
 // [name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // Goblin Toe
-[name] == scarabshellboots && [quality] == unique  // Sandstorm Trek - Ethereal Any
+[name] == scarabshellboots && [quality] == unique && [flag] == ethereal // Sandstorm Trek - Ethereal Any
 [name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler
-
-// =============== Rare
-[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 30 && [fhr] == 10 && [fireresist] >= 20 && [coldresist] >= 20 && [lightresist] >= 20
-[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 30 && [fhr] == 10 && [maxmana] >= 25 && [fireresist]+[coldresist]+[lightresist] >= 40
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,56 +1,44 @@
-// Early Ladder Pickit
+// Mid Ladder Pickit
 // By: Frixionburne
 
 // =============== Armor
-[name] == serpentskinarmor && [quality] == unique // Skin of the Vipermagi - Any
-[name] == cuirass && [quality] == unique // Duriel's Shell - Any
-[name] == mesharmor && [quality] == unique // Shaftstop - Any
-[name] == russetarmor && [quality] == unique // Skullder's Ire - Any
+[name] == serpentskinarmor && [quality] == unique # [fireresist] == 35 // Skin of the Vipermagi - Any 35res
+[name] == cuirass && [quality] == unique && [flag] == ethereal // Duriel's Shell - Any Ethereal
+[name] == mesharmor && [quality] == unique && [flag] == ethereal // Shaftstop - Any Ethereal
+[name] == russetarmor && [quality] == unique && [flag] == ethereal // Skullder's Ire - Any Ethereal
+[name] == balrogskin && [quality] == unique && [flag] == ethereal // Arkaine's Valor - Any Ethereal
 
 // =============== Shields
 [name] == monarch && [quality] == unique // Stormshield - Any
 [name] == gildedshield && [quality] == unique // Herald of Zakarum - Any
-[name] == roundshield && [quality] == unique // Moser's Blessed Circle - Any
-[name] == grimshield && [quality] == unique // Lidless Wall - Any
 
 // =============== Belts
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
 [name] == warbelt && [quality] == unique && [flag] != ethereal // Thundergod's Vigor - Any
-[name] == battlebelt  && [quality] == unique // Snowclash - Any
-[name] == demonhidesash && [quality] == unique && [flag] != ethereal // String of Ears - Any
-[name] == heavybelt && [quality] == unique && [flag] != ethereal  // Goldwrap - Any
 
 // =============== Daggers
 [name] == boneknife && [quality] == unique // Wizardspike
 
 // =============== Gloves
 [name] == vampirebonegloves && [quality] == unique && [flag] != ethereal // Dracul's Grasp/Dracs - Any
-[name] == chaingloves && [quality] == unique && [flag] != ethereal  // Chance Guard - Any
-[name] == lightgauntlets && [quality] == unique && [flag] != ethereal // Magefist - Any
 
 // =============== Boots
 [name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler - Any
-[name] == lightplatedboots && [quality] == unique && [flag] != ethereal // Goblin Toe - Any
 [name] == scarabshellboots && [quality] == unique // Sandstorm Trek - Any
-[name] == sharkskinboots && [quality] == unique // Waterwalk - Any
-[name] == boots && [quality] == unique && [flag] != ethereal // Hotspur - Any
-[name] == demonhideboots && [quality] == unique && [flag] != ethereal // Infernostride - Any
 
 // =============== Helms
 [name] == demonhead && [quality] == unique // Andariel's Visage/Andys - Any
 [name] == shako && [quality] == unique  && [flag] != ethereal // Shako - Any
-[name] == grimhelm && [quality] == unique // Vampire Gaze - Any
+[name] == grimhelm && [quality] == unique && [flag] == ethereal // Vampire Gaze - Ethereal Any
 
 // =============== Rings
-[name] == ring && [quality] == unique # [itemmagicbonus] >= 20 // Nagelring - Any
+[name] == ring && [quality] == unique # [itemmagicbonus] >= 30 // Nagelring - Any
 [name] == ring && [quality] == unique # [itemabsorblightpercent] >= 10 // Wisp Projector - Any
-[name] == ring && [quality] == unique # [dexterity] >= 15 // Raven Frost - Any
+[name] == ring && [quality] == unique # [dexterity] >= 20 // Raven Frost - 20 dex
 [name] == ring && [quality] == unique # [maxstamina] == 50 && [lifeleech] >= 3 // Bul-Kathos Wedding Band - Any
-[name] == ring && [quality] == unique # [maxhp] == 40 // Dwarf Star - Any
 
 // =============== Amulets
 [name] == amulet && [quality] == unique # [strength] == 5 && [fireresist] >= 20 // Mara's Kaleidoscope - Any
-[name] == amulet && [quality] == unique # [lightresist] == 35 // Highlord's Wrath - Any
 
 // =============== Orbs
 [name] == swirlingcrystal && [quality] == unique // The Oculus - Any
@@ -60,23 +48,18 @@
 
 // =============== Sets
 // ----- Tal Rasha's Wrappings
-[name] == swirlingcrystal && [quality] == set // # # [maxquantity] == 1
-[name] == deathmask && [quality] == set // # # [maxquantity] == 1
+// [name] == swirlingcrystal && [quality] == set // # # [maxquantity] == 1
+// [name] == deathmask && [quality] == set // # # [maxquantity] == 1
 [name] == lacqueredplate && [quality] == set // # # [maxquantity] == 1
 [name] == amulet && [quality] == set # [lightresist] == 33 // # [maxquantity] == 1
-[name] == meshbelt && [quality] == set // # # [maxquantity] == 1
+[name] == meshbelt && [quality] == set # [itemmagicbonus] == 15 // # # [maxquantity] == 1
 
 // ----- Trang-Oul's Avatar
 [name] == heavybracers && [quality] == set // # # [maxquantity] == 1
 
 // =============== Spirit Bases
-[name] == monarch && [quality] <= superior # [sockets] == 0 // # [maxquantity] == 1
 [name] == monarch && [quality] <= superior # [sockets] == 4 // # [maxquantity] == 1
-[type] == auricshields && [quality] <= superior && [class] >= normal # [fireresist] >= 30 && [sockets] == 0 // # [maxquantity] == 1
 [type] == auricshields && [quality] <= superior && [class] >= normal # [fireresist] >= 30 && [sockets] == 4 // # [maxquantity] == 1
-[name] == crystalsword  && [quality] <= superior # [sockets] == 4 // # [maxquantity] == 1
-[name] == longsword  && [quality] <= superior # [sockets] == 4 // # [maxquantity] == 1
-[name] == broadsword  && [quality] <= superior # [sockets] == 4 // # [maxquantity] == 1
 
 // =============== Insight Bases
 [name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 0 // # [maxquantity] == 1
@@ -90,6 +73,10 @@
 
 // =============== CTA Bases
 ([name] == flail || [name] == crystalsword) && [quality] >= normal # [sockets] == 5  // # [maxquantity] == 1
+
+// =============== Ebug Bases
+[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 700 // Eth Buggable
+[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 1k+ def 3soc
 
 // =============== Charms
 [name] == grandcharm && [quality] == unique // Gheed's Fortune - Any
