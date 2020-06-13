@@ -662,7 +662,7 @@
 ([name] == crystalsword || [name] == phaseblade || [name] == flail) # [plusskillbattlecommand] >= 6 && [plusskillbattleorders] >=6 && [plusskillbattlecry] >= 4
 
 // =============== Insight
-[type] == polearm # [meditationaura] == 17 && [enhanceddamage] >= 260 && [attackrate] >= 250
+[type] == polearm # [meditationaura] >= 17 && [enhanceddamage] >= 260 && [attackrate] >= 250
 
 // =============== Grief
 ([type] == sword || [type] == axe) # [itemfasterattackrate] >= 40 && [plusmaxdamage] >= 400
