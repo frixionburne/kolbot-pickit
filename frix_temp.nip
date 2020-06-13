@@ -46,6 +46,8 @@
 
 // =============== Maces
 [name] == flail && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
+[name] == knout && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
+[name] == scourge && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -69,6 +71,7 @@
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
 // [name] == battlebelt  && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170 // Snowclash
 // [name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // Thundergod's Vigor
+[name] == warbelt && [quality] == unique && [flag] != ethereal // Thundergod's Vigor
 // [name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // Nosferatu's Coil
 
 
@@ -81,6 +84,13 @@
 // [name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // Goblin Toe
 [name] == scarabshellboots && [quality] == unique && [flag] == ethereal // Sandstorm Trek - Ethereal Any
 [name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// >>>>>>>>>>>>>>> BOWS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// =============== Unique
+[name] == longbow && [quality] == unique  // Ravenclaw
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
