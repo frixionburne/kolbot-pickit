@@ -35,19 +35,20 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Armor
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 750 // Eth Buggable
+[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 700 // Eth Buggable
 [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 1k+ def 3soc
 
 // =============== Polearms
 // [type] == polearm && [quality] <= superior && [flag] == ethereal && [class] == elite # [sockets] == 4
+[name] == thresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
 
 // =============== Shields
 [type] == auricshields && ([quality] == normal || [quality] == superior) && [class] >= normal # [fireresist] >= 45 && [sockets] == 4 // # [maxquantity] == 1
 
 // =============== Maces
-[name] == flail && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
-[name] == knout && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
-[name] == scourge && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
+// [name] == flail && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
+// [name] == knout && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
+// [name] == scourge && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -71,7 +72,7 @@
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
 // [name] == battlebelt  && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170 // Snowclash
 // [name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // Thundergod's Vigor
-[name] == warbelt && [quality] == unique && [flag] != ethereal // Thundergod's Vigor
+// [name] == warbelt && [quality] == unique && [flag] != ethereal // Thundergod's Vigor
 // [name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // Nosferatu's Coil
 
 
@@ -134,7 +135,7 @@
 
 // =============== Unique
 // [name] == hydrabow && [quality] == unique # [manaleech] == 8 // Windforce
-[name] == longbow && [quality] == unique  // Ravenclaw
+// [name] == longbow && [quality] == unique  // Ravenclaw
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // >>>>>>>>>>>>>>> DAGGERS
