@@ -20,27 +20,69 @@ Config.FastPick = false; // Check and pick items between attacks
 ```
 
 # Useful Character Config Crafting Lines
+## Socketing
+```
+// Polearms
+Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Weapon, "Giant Thresher", Roll.Eth]);
+
+// Eth bugged armors
+Config.Recipes.push([Recipe.Socket.Armor, "Dusk Shroud", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Scarab Husk", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Wire Fleece", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Diamond Mail", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Loricated Mail", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Great Hauberk", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Boneweave", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Balrog Skin", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Archon Plate", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Kraken Shell", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Hellforge Plate", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Lacquered Plate", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Shadow Plate", Roll.Eth]);
+Config.Recipes.push([Recipe.Socket.Armor, "Sacred Armor", Roll.Eth]);
+```
+
 ## Insight
 ```
-Config.Runewords.push([Runeword.Insight, "Thresher", Roll.Eth]); // Make ethereal Insight Thresher
-Config.Runewords.push([Runeword.Insight, "Cryptic Axe", Roll.Eth]); // Make ethereal Insight Cryptic Axe
-Config.Runewords.push([Runeword.Insight, "Colossus Voulge", Roll.Eth]); // Make ethereal Insight Colossus Voulge
-Config.Runewords.push([Runeword.Insight, "Great Poleaxe", Roll.Eth]); // Make ethereal Insight Great Poleaxe
-Config.Runewords.push([Runeword.Insight, "Giant Thresher", Roll.Eth]); // Make ethereal Insight Giant Thresher
+Config.Runewords.push([Runeword.Insight, "Colossus Voulge", Roll.Eth]);
+Config.Runewords.push([Runeword.Insight, "Thresher", Roll.Eth]);
+Config.Runewords.push([Runeword.Insight, "Cryptic Axe", Roll.Eth]);
+Config.Runewords.push([Runeword.Insight, "Great Poleaxe", Roll.Eth]);
+Config.Runewords.push([Runeword.Insight, "Giant Thresher", Roll.Eth]);
 
 Config.KeepRunewords.push("[type] == polearm # [meditationaura] >= 17");
 Config.KeepRunewords.push("[type] == polearm # [meditationaura] >= 17 && [enhanceddamage] >= 260 && [attackrate] >= 250 && [plusskillcriticalstrike] >= 6");
 ```
 ## Spirit
 ```
-Config.Runewords.push([Runeword.Spirit, "Monarch", Roll.NonEth]); // Make Spirit Monarch
-Config.Runewords.push([Runeword.Spirit, "Sacred Targe", Roll.NonEth]); // Make Spirit Sacred Targe
-Config.Runewords.push([Runeword.Spirit, "Sacred Rondache", Roll.NonEth]); // Make Spirit Sacred Rondache
-Config.Runewords.push([Runeword.Spirit, "Royal Shield", Roll.NonEth]); // Make Spirit Royal Shield
-Config.Runewords.push([Runeword.Spirit, "Crown Shield", Roll.NonEth]); // Make Spirit Crown Shield
-Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.NonEth]); // Make Spirit Crystal Sword
-Config.Runewords.push([Runeword.Spirit, "Long Sword", Roll.NonEth]); // Make Spirit Long Sword
-Config.Runewords.push([Runeword.Spirit, "Broad Sword", Roll.NonEth]); // Make Spirit Broad Sword
+Config.Runewords.push([Runeword.Spirit, "Monarch", Roll.NonEth])
+
+Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.NonEth])
+Config.Runewords.push([Runeword.Spirit, "Long Sword", Roll.NonEth])
+Config.Runewords.push([Runeword.Spirit, "Broad Sword", Roll.NonEth])
+
+Config.Runewords.push([Runeword.Spirit, "Targe", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Rondache", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Heraldic Shield", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Aerin Shield", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Crown Shield", Roll.NonEth]);
+
+Config.Runewords.push([Runeword.Spirit, "Akaran Targe", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Akaran Rondache", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Protector Shield", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Gilded Shield", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Royal Shield", Roll.NonEth]);
+
+Config.Runewords.push([Runeword.Spirit, "Sacred Targe", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Sacred Rondache", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Kurast Shield", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Zakarum Shield", Roll.NonEth]);
+Config.Runewords.push([Runeword.Spirit, "Vortex Shield", Roll.NonEth]);
 
 Config.KeepRunewords.push("([type] == sword || [type] == shield || [type] == auricshields) # [fcr] == 35");
 Config.KeepRunewords.push("([type] == sword || [type] == shield || [type] == auricshields) # [fcr] == 35 && [maxmana] >= 112 && [itemabsorbmagic] >= 8");
