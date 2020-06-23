@@ -24,7 +24,7 @@
 // [name] == lumrune # # [MaxQuantity] == 1
 // [name] == korune # # [MaxQuantity] == 1
 // [name] == falrune # # [MaxQuantity] == 1
-[name] == lemrune // # # [MaxQuantity] == 1
+// [name] == lemrune // # # [MaxQuantity] == 1
 [name] == pulrune // # # [MaxQuantity] == 1
 [name] == umrune // # # [MaxQuantity] == 1
 [name] == malrune // # # [MaxQuantity] == 1
@@ -35,8 +35,8 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Armor
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 700 // Eth Buggable
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 1k+ def 3soc
+[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 800 // Eth Buggable
+// [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 1k+ def 3soc
 
 // =============== Polearms
 [name] == thresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
@@ -45,7 +45,7 @@
 [name] == giantthresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 
 // =============== Shields
-[type] == auricshields && ([quality] == normal || [quality] == superior) && [flag] != ethereal  && [class] >= normal # [fireresist] >= 45 && ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
+[type] == auricshields && ([quality] == normal || [quality] == superior) && [flag] != ethereal  && [class] >= exceptional # [fireresist] >= 45 && ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 [name] == monarch && [quality] == normal && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [defense] == 148
 
 // =============== Maces
@@ -61,10 +61,10 @@
 // =============== Unique
 // [name] == duskshroud && [quality] == unique # [skillenergyshield] == 3 // Ormus' Robes - ES
 // [name] == serpentskinarmor && [quality] == unique # [fireresist] == 35 // Skin of the Vipermagi - Any 35res
-[name] == cuirass && [quality] == unique && [flag] == ethereal // Duriel's Shell - Any Ethereal
-[name] == mesharmor && [quality] == unique && [flag] == ethereal // Shaftstop - Any Ethereal
-[name] == russetarmor && [quality] == unique && [flag] == ethereal // Skullder's Ire - Any Ethereal
-[name] == balrogskin && [quality] == unique && [flag] == ethereal // Arkaine's Valor - Any Ethereal
+// [name] == cuirass && [quality] == unique && [flag] == ethereal // Duriel's Shell - Any Ethereal
+// [name] == mesharmor && [quality] == unique && [flag] == ethereal // Shaftstop - Any Ethereal
+// [name] == russetarmor && [quality] == unique && [flag] == ethereal // Skullder's Ire - Any Ethereal
+// [name] == balrogskin && [quality] == unique && [flag] == ethereal // Arkaine's Valor - Any Ethereal
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -73,10 +73,7 @@
 
 // =============== Unique
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
-// [name] == battlebelt  && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170 // Snowclash
-// [name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // Thundergod's Vigor
 // [name] == warbelt && [quality] == unique && [flag] != ethereal // Thundergod's Vigor
-// [name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // Nosferatu's Coil
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -85,7 +82,6 @@
 
 // =============== Unique
 // [name] == boneweaveboots && [quality] == unique && [flag] != ethereal # [strength] == 20 // Marrowalk
-// [name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // Goblin Toe
 [name] == scarabshellboots && [quality] == unique && [flag] == ethereal // Sandstorm Trek - Ethereal Any
 [name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler
 
@@ -107,7 +103,7 @@
 // [name] == sallet && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 210 // Rockstopper
 // [name] == bonevisage && [quality] == unique # [sockets] == 2 && [strength] == 35 // Giant Skull
 [name] == demonhead && [quality] == unique // Andariel's Visage/Andys - Any
-[name] == shako && [quality] == unique && [flag] != ethereal // Harlequin Crest/Shako - Any
+// [name] == shako && [quality] == unique && [flag] != ethereal // Harlequin Crest/Shako - Any
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -206,16 +202,16 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Unique
-[name] == gildedshield && [quality] == unique // Herald of Zakarum
+// [name] == gildedshield && [quality] == unique // Herald of Zakarum
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // >>>>>>>>>>>>>>> RINGS
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Unique
-// [name] == ring && [quality] == unique # [itemmagicbonus] == 30 // Nagelring
-// [name] == ring && [quality] == unique # [maxhp] == 40 && [magicdamagereduction] == 15 // Dwarf Star
-// [name] == ring && [quality] == unique # [maxstamina] == 50 && [lifeleech] >= 3 // Any BK
+[name] == ring && [quality] == unique # [itemmagicbonus] == 30 // Nagelring
+[name] == ring && [quality] == unique # [maxhp] == 40 && [magicdamagereduction] == 15 // Dwarf Star
+[name] == ring && [quality] == unique # [maxstamina] == 50 && [lifeleech] >= 3 // Any BK
 [name] == ring && [quality] == unique # [itemabsorblightpercent] >= 10 // Any Wisp
 // [name] == ring && [quality] == unique # [dexterity] == 20 // Any 20dex Raven
 

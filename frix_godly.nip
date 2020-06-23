@@ -48,6 +48,9 @@
 [name] == spiderwebsash && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 120 // Arachnid Mesh
 [name] == mithrilcoil && [quality] == unique && [flag] != ethereal # [damageresist] == 15 && [vitality] == 40 // Verdungo's Hearty Cord
 [name] == demonhidesash && [quality] == unique && [flag] != ethereal # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15 // String of Ears
+[name] == warbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200 // Thundergod's Vigor
+[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63 // Nosferatu's Coil
+[name] == battlebelt  && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170 // Snowclash
 
 [name] == heavybelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [itemgoldbonus] == 80 // Goldwrap
 [name] == battlebelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // && [defense] == 92 // Goldwrap - Exceptional Upgrade
@@ -299,6 +302,7 @@
 [name] == espandon && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 200 // Crainte Vomir - Ethereal
 [name] == phaseblade && [quality] == unique # [sanctuaryaura] == 13 && [enhanceddamage] == 270 && [strength] == 10 // Azurewrath
 [name] == tulwar && [quality] == unique && [flag] == ethereal # [enhanceddamage] == 120 && [dexterity] == 15 // Blade of Ali Baba - Ethereal
+[name] == colossusblade && [quality] == unique  # [enhanceddamage] == 250 // Grandfather
 
 // =============== Rare
 [type] == sword && [quality] == rare && [flag] == ethereal # ([enhanceddamage] >= 250 && [itemtohitperlevel] >= 1) || [enhanceddamage] >= 400
