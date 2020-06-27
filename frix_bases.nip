@@ -18,14 +18,23 @@
 [name] == mageplate && [quality] == superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
 [name] == sharktootharmor && [quality] == superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
 
-[name] == duskshroud && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
-[name] == wyrmhide && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
-[name] == scarabhusk && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
-[name] == wirefleece && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
-[name] == greathauberk && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
-[name] == archonplate && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
-[name] == balrogskin && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
-[name] == sacredarmor && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+// [name] == duskshroud && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+// [name] == wyrmhide && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+// [name] == scarabhusk && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+// [name] == wirefleece && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+// [name] == greathauberk && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+[name] == archonplate && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+// [name] == balrogskin && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+[name] == sacredarmor && [quality] <= superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+
+[name] == duskshroud && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+[name] == wyrmhide && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+[name] == scarabhusk && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+[name] == wirefleece && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+[name] == greathauberk && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+[name] == archonplate && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+[name] == balrogskin && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
+[name] == sacredarmor && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
 
 // Armor           Base Min   Base Max   Base Eth Min   Base Eth Max   Ebug Min   Ebug Max
 // --------------------------------------------------------------------------------------------
@@ -61,7 +70,7 @@
 [name] == shadowplate && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 835 // 835 Max
 [name] == sacredarmor && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 900 // 900 Max
 
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 4 && [defense] >= 1000 //  Eth Bugged 1k+ def
+[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 4 && [defense] >= 1000 //  Eth Bugged 4 soc 1k+ def
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

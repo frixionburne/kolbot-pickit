@@ -35,8 +35,9 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Armor
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 800 // Eth Buggable
-// [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 1k+ def 3soc
+// [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 800 // Eth Buggable
+[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 3 soc 1k+ def
+[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 2 soc 1k+ def
 
 // =============== Polearms
 [name] == thresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
@@ -45,8 +46,8 @@
 [name] == giantthresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 
 // =============== Shields
-[type] == auricshields && ([quality] == normal || [quality] == superior) && [flag] != ethereal  && [class] >= exceptional # [fireresist] >= 45 && ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
-[name] == monarch && [quality] == normal && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [defense] == 148
+// [type] == auricshields && ([quality] == normal || [quality] == superior) && [flag] != ethereal  && [class] >= exceptional # [fireresist] >= 45 && ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
+// [name] == monarch && [quality] == normal && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [defense] == 148
 
 // =============== Maces
 // [name] == flail && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
@@ -233,8 +234,8 @@
 // =============== Magic
 // [name] == smallcharm && [quality] == magic # [itemgoldbonus] == 10
 [name] == smallcharm && [quality] == magic # [itemmagicbonus] == 7
-[name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 15
-[name] == smallcharm && [quality] == magic # [maxhp] == 20
+// [name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 15
+// [name] == smallcharm && [quality] == magic # [maxhp] == 20
 
 // [name] == grandcharm && [quality] == magic # [elementalskilltab] == 1
 // [name] == grandcharm && [quality] == magic # [poisonandboneskilltab] == 1
