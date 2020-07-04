@@ -73,7 +73,7 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Unique
-[name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
+// [name] == spiderwebsash && [quality] == unique && [flag] != ethereal // Arachnid Mesh - Any
 // [name] == warbelt && [quality] == unique && [flag] != ethereal // Thundergod's Vigor
 
 
@@ -103,7 +103,7 @@
 // =============== Unique
 // [name] == sallet && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 210 // Rockstopper
 // [name] == bonevisage && [quality] == unique # [sockets] == 2 && [strength] == 35 // Giant Skull
-[name] == demonhead && [quality] == unique // Andariel's Visage/Andys - Any
+// [name] == demonhead && [quality] == unique // Andariel's Visage/Andys - Any
 // [name] == shako && [quality] == unique && [flag] != ethereal // Harlequin Crest/Shako - Any
 
 
@@ -211,8 +211,8 @@
 
 // =============== Unique
 [name] == ring && [quality] == unique # [itemmagicbonus] == 30 // Nagelring
-[name] == ring && [quality] == unique # [maxhp] == 40 && [magicdamagereduction] == 15 // Dwarf Star
-[name] == ring && [quality] == unique # [maxstamina] == 50 && [lifeleech] >= 3 // Any BK
+// [name] == ring && [quality] == unique # [maxhp] == 40 && [magicdamagereduction] == 15 // Dwarf Star
+// [name] == ring && [quality] == unique # [maxstamina] == 50 && [lifeleech] >= 3 // Any BK
 [name] == ring && [quality] == unique # [itemabsorblightpercent] >= 10 // Any Wisp
 // [name] == ring && [quality] == unique # [dexterity] == 20 // Any 20dex Raven
 
@@ -221,7 +221,7 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Unique
-[name] == amulet && [quality] == unique # [strength] == 5 && [fireresist] >= 20 // Mara's Kaleidoscope
+// [name] == amulet && [quality] == unique # [strength] == 5 && [fireresist] >= 20 // Mara's Kaleidoscope
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -234,7 +234,7 @@
 // =============== Magic
 // [name] == smallcharm && [quality] == magic # [itemgoldbonus] == 10
 [name] == smallcharm && [quality] == magic # [itemmagicbonus] == 7
-// [name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 15
+[name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 15
 // [name] == smallcharm && [quality] == magic # [maxhp] == 20
 
 // [name] == grandcharm && [quality] == magic # [elementalskilltab] == 1

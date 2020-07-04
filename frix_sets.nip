@@ -16,6 +16,12 @@
 // =============== Aldur's Watchtower
 [name] == battleboots && [quality] == set # [defense] == 47 && [fireresist] == 50
 
+// =============== Natalya's Odium
+[name] == scissorssuwayyah && [quality] == set
+[name] == loricatedmail && [quality] == set # [defense] == 721 && [sockets] == 3
+[name] == grimhelm && [quality] == set # [defense] == 300 && [dexterity] == 30 && [strength] == 20 && [fireresist] == 20
+[name] == meshboots && [quality] == set # [defense] == 169 && [coldresist] == 20 && [lightresist] == 20
+
 // =============== Immortal King
 //[name] == warboots && [quality] == set
 //[name] == warbelt && [quality] == set
