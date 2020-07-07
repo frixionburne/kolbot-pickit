@@ -11,7 +11,6 @@ Config.PickitFiles.push("frixionburne/frix_temp.nip");
 //Config.PickitFiles.push("frixionburne/frix_mid_ladder.nip");
 Config.PickitFiles.push("frixionburne/frix_bases.nip");
 Config.PickitFiles.push("frixionburne/frix_godly.nip");
-Config.PickitFiles.push("frixionburne/frix_sets.nip");
 
 // Config.PickitFiles.push("kolton.nip");
 Config.PickitFiles.push("LLD.nip");

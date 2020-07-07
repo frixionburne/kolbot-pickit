@@ -10,11 +10,11 @@
 // [name] == tirrune # # [MaxQuantity] == 1
 // [name] == nefrune # # [MaxQuantity] == 1
 // [name] == ethrune # # [MaxQuantity] == 1
-// [name] == ithrune # # [MaxQuantity] == 1
+[name] == ithrune # # [MaxQuantity] == 1
 // [name] == talrune # # [MaxQuantity] == 1
 // [name] == ralrune # # [MaxQuantity] == 1
 // [name] == ortrune # # [MaxQuantity] == 1
-// [name] == thulrune # # [MaxQuantity] == 1
+[name] == thulrune # # [MaxQuantity] == 1
 // [name] == amnrune # # [MaxQuantity] == 1
 // [name] == solrune # # [MaxQuantity] == 1
 // [name] == shaelrune # # [MaxQuantity] == 1
@@ -35,6 +35,7 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Armor
+[name] == lightplate && [quality] == superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
 // [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 800 // Eth Buggable
 [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 3 soc 1k+ def
 [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 2 soc 1k+ def
@@ -53,6 +54,42 @@
 // [name] == flail && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
 // [name] == knout && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
 // [name] == scourge && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// >>>>>>>>>>>>>>> SETS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// =============== Tal Rasha's Wrappings
+[name] == swirlingcrystal && [quality] == set # [skilllightningmastery] == 2 && [skillfiremastery] == 2 && [skillcoldmastery] == 2
+[name] == deathmask && [quality] == set # [defense] == 131
+[name] == lacqueredplate && [quality] == set # [defense] == 541
+// [name] == amulet && [quality] == set # [lightresist] == 33
+[name] == meshbelt && [quality] == set # [itemmagicbonus] == 15 && [defense] == 40
+
+// =============== Aldur's Watchtower
+[name] == battleboots && [quality] == set # [defense] == 47 && [fireresist] == 50
+
+// =============== Natalya's Odium
+[name] == scissorssuwayyah && [quality] == set
+[name] == loricatedmail && [quality] == set # [defense] == 721 && [sockets] == 3
+[name] == grimhelm && [quality] == set # [defense] == 300 && [dexterity] == 30 && [strength] == 20 && [fireresist] == 20
+[name] == meshboots && [quality] == set # [defense] == 169 && [coldresist] == 20 && [lightresist] == 20
+
+// =============== Immortal King
+[name] == warboots && [quality] == set # [defense] == 53
+[name] == warbelt && [quality] == set # [defense] == 52
+// [name] == ogremaul && [quality] == set
+[name] == avengerguard && [quality] == set # [itemmagicbonus] == 40 && [defense] == 175
+
+// =============== Trang-Oul's Avatar
+//[name] == heavybracers && [quality] == set # [defense] == 74
+//[name] == trollbelt && [quality] == set # [maxmana] == 50 && [defense] == 166
+//[name] == bonevisage && [quality] == set # [defense] == 257
+
+// =============== Griswold's Legacy
+//[name] == caduceus && [quality] == set # [enhanceddamage] == 240 && [sockets] == 4
+//[name] == corona  && [quality] == set # [enhanceddefense] == 75 && [itemmagicbonus] == 30
+//[name] == vortexshield && [quality] == set # [defense] == 333
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
