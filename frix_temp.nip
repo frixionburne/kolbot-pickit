@@ -121,6 +121,7 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Unique
+// [name] == lightplatedboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 // Goblin Toe
 // [name] == boneweaveboots && [quality] == unique && [flag] != ethereal # [strength] == 20 // Marrowalk
 [name] == scarabshellboots && [quality] == unique && [flag] == ethereal // Sandstorm Trek - Ethereal Any
 [name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler
