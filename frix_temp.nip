@@ -35,18 +35,20 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Armor
-[name] == lightplate && [quality] == superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 15 || [itemmaxdurabilitypercent] == 0)
-// [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 800 // Eth Buggable
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 3 soc 1k+ def
-[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 2 soc 1k+ def
+// The bases pickit will already grab anything that ebugs 4 socket and > 1000 defense.
+[type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 0 && [defense] >= 700 // Eth Buggable
+// [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 3 soc 1k+ def
+// [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 2 soc 1k+ def
 
 // =============== Polearms
+// [name] == colossusvoulge && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 [name] == thresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 [name] == crypticaxe && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 [name] == greatpoleaxe && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 [name] == giantthresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 
 // =============== Shields
+// 45@ pally spirit bases and perfect defense non sup monarchs
 // [type] == auricshields && ([quality] == normal || [quality] == superior) && [flag] != ethereal  && [class] >= exceptional # [fireresist] >= 45 && ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 // [name] == monarch && [quality] == normal && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [defense] == 148
 
@@ -63,7 +65,7 @@
 [name] == swirlingcrystal && [quality] == set # [skilllightningmastery] == 2 && [skillfiremastery] == 2 && [skillcoldmastery] == 2
 [name] == deathmask && [quality] == set # [defense] == 131
 [name] == lacqueredplate && [quality] == set # [defense] == 541
-// [name] == amulet && [quality] == set # [lightresist] == 33
+[name] == amulet && [quality] == set # [lightresist] == 33
 [name] == meshbelt && [quality] == set # [itemmagicbonus] == 15 && [defense] == 40
 
 // =============== Aldur's Watchtower
@@ -247,7 +249,7 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Unique
-[name] == ring && [quality] == unique # [itemmagicbonus] == 30 // Nagelring
+// [name] == ring && [quality] == unique # [itemmagicbonus] == 30 // Nagelring
 // [name] == ring && [quality] == unique # [maxhp] == 40 && [magicdamagereduction] == 15 // Dwarf Star
 // [name] == ring && [quality] == unique # [maxstamina] == 50 && [lifeleech] >= 3 // Any BK
 [name] == ring && [quality] == unique # [itemabsorblightpercent] >= 10 // Any Wisp

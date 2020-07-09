@@ -2,11 +2,10 @@
 Diablo II Kolbot pickits
 
 # Usage Example
-In your config file (ex. Paladin.MCHammerdin.js)
+In your config file (ex. Paladin.MCHammerdin.js), be sure to add the new pickit configs and comment out the kolton.nip include
 
 ```
 // Pickit config. Default folder is kolbot/pickit.
-Config.PickitFiles.push("frixionburne/frix_temp.nip");
 //Config.PickitFiles.push("frixionburne/frix_early_ladder.nip");
 //Config.PickitFiles.push("frixionburne/frix_mid_ladder.nip");
 Config.PickitFiles.push("frixionburne/frix_bases.nip");
@@ -14,8 +13,21 @@ Config.PickitFiles.push("frixionburne/frix_godly.nip");
 
 // Config.PickitFiles.push("kolton.nip");
 Config.PickitFiles.push("LLD.nip");
-Config.PickRange = 40; // Pick radius
-Config.FastPick = false; // Check and pick items between attacks
+```
+
+Additionally, a good idea for your own changes is to create a copy of the frix_temp.nip file and make customizations there.
+For example, for a customized copy of frix_temp.nip named `frix_temp_custom.nip`
+
+```
+// Pickit config. Default folder is kolbot/pickit.
+Config.PickitFiles.push("frixionburne/frix_temp_custom.nip");
+//Config.PickitFiles.push("frixionburne/frix_early_ladder.nip");
+//Config.PickitFiles.push("frixionburne/frix_mid_ladder.nip");
+Config.PickitFiles.push("frixionburne/frix_bases.nip");
+Config.PickitFiles.push("frixionburne/frix_godly.nip");
+
+// Config.PickitFiles.push("kolton.nip");
+Config.PickitFiles.push("LLD.nip");
 ```
 
 # Useful Character Config Crafting Lines
