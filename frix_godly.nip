@@ -636,11 +636,6 @@
 [type] == circlet && [quality] == magic && [flag] != ethereal # [sockets] == 3 && ([frw] == 30 || [strength] == 30 || [dexterity] == 30 || [itemmagicbonus] == 35 || [maxhp] == 100 || [fcr] == 20 || [normaldamagereduction] == 25)
 [type] == circlet && [quality] == magic && [flag] != ethereal # [amazonskills] == 2 && [frw] == 30
 
-// [type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [sorceressskills] == 2
-// [type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [necromancerskills] == 2
-// [type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [paladinskills] == 2
-// [type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && [assassinskills] == 2
-
 [type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && ([fireskilltab] == 3 || [coldskilltab] == 3 || [lightningskilltab] == 3)
 [type] == circlet && [quality] == magic && [flag] != ethereal # [strength] >= 15 && ([shadowdisciplinesskilltab] == 3 || [lightningskilltab] == 3)
 [type] == circlet && [quality] == magic && [flag] != ethereal # ([paladinskills] == 2 || [palicombatskilltab] == 3 || [sorceressskills] == 2 || [lightningskilltab] == 3 || [maxmana] == 120) && [normaldamagereduction] == 25
