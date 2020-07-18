@@ -46,11 +46,18 @@
 // =============== Polearms
 [name] == greatpoleaxe && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 0 && [enhanceddamage] == 15
 [name] == giantthresher && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 0 && [enhanceddamage] == 15
+
 // [name] == colossusvoulge && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
-[name] == thresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
-[name] == crypticaxe && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
-[name] == greatpoleaxe && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
-[name] == giantthresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
+
+// [name] == thresher && [quality] == normal && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
+// [name] == crypticaxe && [quality] == normal && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
+// [name] == greatpoleaxe && [quality] == normal && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
+[name] == giantthresher && [quality] == normal && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
+
+// [name] == thresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
+// [name] == crypticaxe && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
+// [name] == greatpoleaxe && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
+[name] == giantthresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
 
 // =============== Shields
 // 45@ pally spirit bases and perfect defense non sup monarchs
@@ -83,7 +90,7 @@
 // [name] == scissorssuwayyah && [quality] == set
 [name] == loricatedmail && [quality] == set # [defense] == 721 && [sockets] == 3
 [name] == grimhelm && [quality] == set # [defense] == 300 && [dexterity] == 30 && [strength] == 20 && [fireresist] == 20
-[name] == meshboots && [quality] == set # [defense] == 169 && [coldresist] == 20 && [lightresist] == 20
+[name] == meshboots && [quality] == set # [defense] == 169 && [coldresist] == 25 && [lightresist] == 25
 
 // =============== Immortal King
 [name] == warboots && [quality] == set # [defense] == 53
@@ -97,9 +104,9 @@
 //[name] == bonevisage && [quality] == set # [defense] == 257
 
 // =============== Griswold's Legacy
-//[name] == caduceus && [quality] == set # [enhanceddamage] == 240 && [sockets] == 4
-//[name] == corona  && [quality] == set # [enhanceddefense] == 75 && [itemmagicbonus] == 30
-//[name] == vortexshield && [quality] == set # [defense] == 333
+[name] == caduceus && [quality] == set # [enhanceddamage] == 240 && [sockets] == 4
+[name] == corona  && [quality] == set # [enhanceddefense] == 75 && [itemmagicbonus] == 30
+[name] == vortexshield && [quality] == set # [defense] == 333
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -226,8 +226,15 @@
 [type] == voodooheads && [quality] <= superior && [flag] != ethereal # [skillbonespirit]+[skillbonespear] == 6 && [sockets] != 1
 
 // =============== Paladin
-[type] == auricshields && [quality] == normal && [class] == elite && [flag] == ethereal # ([enhanceddamage] == 65 && [tohit] == 121 || [fireresist] >= 45) && [sockets] == 0 // Ebug Exile bases
-[type] == auricshields && [quality] == normal && [class] == elite && [flag] != ethereal # ([enhanceddamage] == 65 && [tohit] == 121 || [fireresist] >= 45) && [sockets] == 0 // Spirit, Phoenix, etc bases
-[type] == auricshields && [quality] <= superior && [class] == elite && [flag] != ethereal # ([enhanceddamage] == 65 && [tohit] == 121 || [fireresist] >= 45) && [sockets] == 3 // Dream bases
-[type] == auricshields && [quality] <= superior && [class] == elite && [flag] != ethereal # ([enhanceddamage] == 65 && [tohit] == 121 || [fireresist] >= 45) && [sockets] == 4 // Spirit, Phoenix, etc bases
-[type] == auricshields && [quality] == superior && [class] == elite && [flag] != ethereal # [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 0 || [itemmaxdurabilitypercent] == 15) && (([enhanceddamage] == 65 && [tohit] == 121) || [fireresist] >= 45) && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4) // Superior Bases
+[type] == auricshields && [quality] == normal && [class] == elite && [flag] == ethereal # [enhanceddamage] == 65 && [tohit] == 121  && [sockets] == 0 // Ebug Exile bases ed/ar
+[type] == auricshields && [quality] == normal && [class] == elite && [flag] == ethereal # [fireresist] >= 45 && [sockets] == 0 // Ebug Exile bases res
+[type] == auricshields && [quality] == normal && [class] == elite && [flag] != ethereal # [enhanceddamage] == 65 && [tohit] == 121 && [sockets] == 0 // Spirit, Phoenix, etc bases ed/ar
+[type] == auricshields && [quality] == normal && [class] == elite && [flag] != ethereal # [enhanceddamage] == 65 && [tohit] == 121 && [sockets] == 4 // Spirit, Phoenix, etc bases ed/ar
+[type] == auricshields && [quality] == normal && [class] == elite && [flag] != ethereal # [fireresist] >= 45 && [sockets] == 0 // Spirit, Phoenix, etc bases res
+[type] == auricshields && [quality] == normal && [class] == elite && [flag] != ethereal # [fireresist] >= 45 && [sockets] == 4 // Spirit, Phoenix, etc bases res
+[type] == auricshields && [quality] <= superior && [class] == elite && [flag] != ethereal # [enhanceddamage] == 65 && [tohit] == 121 && [sockets] == 3 // Dream bases ed/ar
+[type] == auricshields && [quality] <= superior && [class] == elite && [flag] != ethereal # [fireresist] >= 45 && [sockets] == 3 // Dream bases res
+[type] == auricshields && [quality] == superior && [class] == elite && [flag] != ethereal # [enhanceddefense] == 15 && [itemmaxdurabilitypercent] == 0 && [enhanceddamage] == 65 && [tohit] == 121 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)
+[type] == auricshields && [quality] == superior && [class] == elite && [flag] != ethereal # [enhanceddefense] == 15 && [itemmaxdurabilitypercent] == 15 && [enhanceddamage] == 65 && [tohit] == 121 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)
+[type] == auricshields && [quality] == superior && [class] == elite && [flag] != ethereal # [enhanceddefense] == 15 && [itemmaxdurabilitypercent] == 0 && [fireresist] >= 45 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)
+[type] == auricshields && [quality] == superior && [class] == elite && [flag] != ethereal # [enhanceddefense] == 15 && [itemmaxdurabilitypercent] == 15 && [fireresist] >= 45 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)
