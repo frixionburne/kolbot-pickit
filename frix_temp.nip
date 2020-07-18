@@ -93,8 +93,9 @@
 [name] == meshboots && [quality] == set # [defense] == 169 && [coldresist] == 25 && [lightresist] == 25
 
 // =============== Immortal King
-[name] == warboots && [quality] == set # [defense] == 53
+// [name] == warboots && [quality] == set # [defense] == 53
 [name] == warbelt && [quality] == set # [defense] == 52
+[name] == sacredarmor && [quality] == set
 // [name] == ogremaul && [quality] == set
 [name] == avengerguard && [quality] == set # [itemmagicbonus] == 40 && [defense] == 175
 
@@ -138,7 +139,7 @@
 // =============== Unique
 // [name] == boneweaveboots && [quality] == unique && [flag] != ethereal # [strength] == 20 // Marrowalk
 [name] == scarabshellboots && [quality] == unique && [flag] == ethereal // Sandstorm Trek - Ethereal Any
-[name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler
+// [name] == battleboots && [quality] == unique && [flag] != ethereal // War Traveler
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

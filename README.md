@@ -30,6 +30,15 @@ Config.PickitFiles.push("frixionburne/frix_godly.nip");
 Config.PickitFiles.push("LLD.nip");
 ```
 
+# Useful Character Config Gambling Lines
+## Claws
+```
+Config.GambleItems.push("Katar");
+Config.GambleItems.push("Wrist Blade");
+Config.GambleItems.push("Claws");
+Config.GambleItems.push("Blade Talons");
+```
+
 # Useful Character Config Crafting Lines
 ## Socketing
 ```
