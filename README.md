@@ -105,6 +105,7 @@ Config.Runewords.push([Runeword.Spirit, "Zakarum Shield", Roll.NonEth]);
 Config.Runewords.push([Runeword.Spirit, "Vortex Shield", Roll.NonEth]);
 
 Config.KeepRunewords.push("([type] == sword || [type] == shield || [type] == auricshields) # [fcr] == 35");
+Config.KeepRunewords.push("([type] == sword || [type] == shield || [type] == auricshields) # [fcr] == 35 && [maxmana] >= 112");
 Config.KeepRunewords.push("([type] == sword || [type] == shield || [type] == auricshields) # [fcr] == 35 && [maxmana] >= 112 && [itemabsorbmagic] >= 8");
 ```
 ## Heart Of The Oak
@@ -117,4 +118,10 @@ Config.KeepRunewords.push("[type] == mace # [fireresist] == 40");
 Config.Runewords.push([Runeword.CallToArms, "Flail", Roll.NonEth]); // Make CTA Flail
 Config.Runewords.push([Runeword.CallToArms, "Crystal Sword", Roll.NonEth]); // Make CTA Crystal Sword
 Config.KeepRunewords.push("([name] == crystalsword || [name] == flail) # [plusskillbattlecommand] >= 6 && [plusskillbattleorders] >=6 && [plusskillbattlecry] >= 4");
+```
+
+## Prudence
+```
+Config.Runewords.push([Runeword.Prudence, "Balrog Skin", Roll.Eth]);
+Config.KeepRunewords.push("([type] == armor) # [enhanceddefense] == 170 && [fireresist] >= 30");
 ```

@@ -81,7 +81,7 @@
 // [name] == deathmask && [quality] == set # [defense] == 131
 [name] == lacqueredplate && [quality] == set # [defense] == 541
 // [name] == amulet && [quality] == set # [lightresist] == 33
-[name] == meshbelt && [quality] == set # [itemmagicbonus] == 15 && [defense] == 40
+// [name] == meshbelt && [quality] == set # [itemmagicbonus] == 15 && [defense] == 40
 
 // =============== Aldur's Watchtower
 [name] == battleboots && [quality] == set # [defense] == 47 && [fireresist] == 50
