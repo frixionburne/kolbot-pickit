@@ -317,4 +317,4 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Magic
-[Name] == jewel && [quality] == magic # [fireresist] >= 20 && [ias] == 15 // Merc andys jewel
+[Name] == jewel && [quality] == magic # [fireresist] >= 10 && [ias] == 15 // Merc andys jewel
