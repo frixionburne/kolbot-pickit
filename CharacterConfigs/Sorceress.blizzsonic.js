@@ -407,7 +407,7 @@ function LoadConfig() {
 	// Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
 	// Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
 	// Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
-	  Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
+	Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
 	// Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
 	// Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
 	// Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
@@ -459,6 +459,8 @@ function LoadConfig() {
 
 	Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Slayer Guard", Roll.NonEth]); // Upgrade Arreats to Elite
 
+	Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Mesh Armor", Roll.NonEth]); // Upgrade Shaftstop to Elite
+
 	Config.Recipes.push([Recipe.Unique.Armor.ToExceptional, "Heavy Gloves", Roll.NonEth]); // Upgrade Bloodfist to Exceptional
 	Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Sharkskin Gloves", Roll.NonEth]); // Upgrade Bloodfist or Grave Palm to Elite
 
@@ -478,7 +480,12 @@ function LoadConfig() {
 	Config.KeepRunewords.push("[type] == polearm # [meditationaura] == 17");
 
 	//Config.Runewords.push([Runeword.Spirit, "Monarch", Roll.NonEth]); // Make Spirit Monarch
+	//Config.Runewords.push([Runeword.Spirit, "Monarch", Roll.Eth]); // Make Spirit Monarch
 	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe", Roll.NonEth]); // Make Spirit Sacred Targe
+	//Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.NonEth]); // Make Spirit Crystal Sword
+	//Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.Eth]); // Make Spirit Crystal Sword
+	//Config.Runewords.push([Runeword.Spirit, "Long Sword", Roll.NonEth]); // Make Spirit Long Sword
+	//Config.Runewords.push([Runeword.Spirit, "Broad Sword", Roll.NonEth]); // Make Spirit Broad Sword
 
 	//Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] == 35");
 
