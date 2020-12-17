@@ -273,7 +273,7 @@ function LoadConfig() {
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
 	Config.UseMercRejuv = 0; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
 	Config.HPBuffer = 2; // Number of healing potions to keep in inventory.
-	Config.MPBuffer = 10; // Number of mana potions to keep in inventory.
+	Config.MPBuffer = 5; // Number of mana potions to keep in inventory.
 	Config.RejuvBuffer = 2; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
@@ -289,10 +289,10 @@ function LoadConfig() {
 	 * 1 = item is unlocked and will be dropped, stashed or sold.
 	 * If you don't change the default values, the bot won't stash items.
 	 */
-	Config.Inventory[0] = [0,0,1,1,1,1,1,1,1,1];
-	Config.Inventory[1] = [0,0,1,1,1,1,1,1,1,1];
-	Config.Inventory[2] = [0,0,1,1,1,1,1,1,1,1];
-	Config.Inventory[3] = [0,0,1,1,1,1,1,1,1,1];
+	Config.Inventory[0] = [0,0,0,1,1,1,1,1,1,1];
+	Config.Inventory[1] = [0,0,0,1,1,1,1,1,1,1];
+	Config.Inventory[2] = [0,0,0,1,1,1,1,1,1,1];
+	Config.Inventory[3] = [0,0,0,1,1,1,1,1,1,1];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
 
