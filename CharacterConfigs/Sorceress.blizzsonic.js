@@ -314,7 +314,7 @@ function LoadConfig() {
 	Config.MinColumn[3] = 3;
 
 	// Pickit config. Default folder is kolbot/pickit.
-	Config.PickitFiles.push("frixionburne/frix_temp_custom.nip");
+	Config.PickitFiles.push("frixionburne/frix_temp.nip");
 	//Config.PickitFiles.push("frixionburne/frix_early_ladder.nip");
 	//Config.PickitFiles.push("frixionburne/frix_mid_ladder.nip");
 	Config.PickitFiles.push("frixionburne/frix_bases.nip");
@@ -403,15 +403,16 @@ function LoadConfig() {
 
 	//Config.Recipes.push([Recipe.Token]); // Make Token of Absolution
 
-	// Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
-	// Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
-	// Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
-	// Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
+	Config.Recipes.push([Recipe.Rune, "Fal Rune"]); // Upgrade Fal to Lem
+	Config.Recipes.push([Recipe.Rune, "Pul Rune"]); // Upgrade Pul to Um
+	Config.Recipes.push([Recipe.Rune, "Um Rune"]); // Upgrade Um to Mal
+	Config.Recipes.push([Recipe.Rune, "Mal Rune"]); // Upgrade Mal to Ist
+	Config.Recipes.push([Recipe.Rune, "Ist Rune"]); // Upgrade Ist to Gul
 	Config.Recipes.push([Recipe.Rune, "Gul Rune"]); // Upgrade Gul to Vex
-	// Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
-	// Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
-	// Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
-	// Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
+	Config.Recipes.push([Recipe.Rune, "Vex Rune"]); // Upgrade Vex to Ohm
+	Config.Recipes.push([Recipe.Rune, "Ohm Rune"]); // Upgrade Ohm to Lo
+	Config.Recipes.push([Recipe.Rune, "Lo Rune"]); // Upgrade Lo to Sur
+	Config.Recipes.push([Recipe.Rune, "Sur Rune"]); // Upgrade Sur to Ber
 	// Config.Recipes.push([Recipe.Rune, "Ber Rune"]); // Upgrade Ber to Jah
 
 	Config.Recipes.push([Recipe.Caster.Amulet]); // Craft Caster Amulet
@@ -469,6 +470,9 @@ function LoadConfig() {
 
 	Config.Recipes.push([Recipe.Unique.Armor.ToElite, "War Boots", Roll.NonEth]); // Upgrade Gore Rider to Elite
 
+	Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Gilded Shield", Roll.NonEth]); // Upgrade Hoz to Elite
+	Config.Recipes.push([Recipe.Unique.Armor.ToElite, "Gilded Shield", Roll.Eth]); // Upgrade Hoz to Elite
+
 	/* Runeword config. All recipes are available in Templates/Runewords.txt
 	 * Keep lines follow pickit format and any given runeword is tested vs ALL lines so you don't need to repeat them
 	 */
@@ -479,15 +483,15 @@ function LoadConfig() {
 
 	Config.KeepRunewords.push("[type] == polearm # [meditationaura] == 17");
 
-	//Config.Runewords.push([Runeword.Spirit, "Monarch", Roll.NonEth]); // Make Spirit Monarch
-	//Config.Runewords.push([Runeword.Spirit, "Monarch", Roll.Eth]); // Make Spirit Monarch
-	//Config.Runewords.push([Runeword.Spirit, "Sacred Targe", Roll.NonEth]); // Make Spirit Sacred Targe
-	//Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.NonEth]); // Make Spirit Crystal Sword
-	//Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.Eth]); // Make Spirit Crystal Sword
-	//Config.Runewords.push([Runeword.Spirit, "Long Sword", Roll.NonEth]); // Make Spirit Long Sword
-	//Config.Runewords.push([Runeword.Spirit, "Broad Sword", Roll.NonEth]); // Make Spirit Broad Sword
+	Config.Runewords.push([Runeword.Spirit, "Monarch", Roll.NonEth]); // Make Spirit Monarch
+	Config.Runewords.push([Runeword.Spirit, "Monarch", Roll.Eth]); // Make Spirit Monarch
+	Config.Runewords.push([Runeword.Spirit, "Sacred Targe", Roll.NonEth]); // Make Spirit Sacred Targe
+	Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.NonEth]); // Make Spirit Crystal Sword
+	Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.Eth]); // Make Spirit Crystal Sword
+	Config.Runewords.push([Runeword.Spirit, "Long Sword", Roll.NonEth]); // Make Spirit Long Sword
+	Config.Runewords.push([Runeword.Spirit, "Broad Sword", Roll.NonEth]); // Make Spirit Broad Sword
 
-	//Config.KeepRunewords.push("[type] == shield || [type] == auricshields # [fcr] == 35");
+	Config.KeepRunewords.push("[type] == shield || [type] == auricshields || [type] == sword # [fcr] == 35");
 
 	// Public game options
 

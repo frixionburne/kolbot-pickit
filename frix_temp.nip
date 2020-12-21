@@ -19,7 +19,7 @@
 // [name] == solrune # # [MaxQuantity] == 3
 // [name] == shaelrune # # [MaxQuantity] == 1
 // [name] == dolrune # # [MaxQuantity] == 1
-// [name] == helrune # # [MaxQuantity] == 1
+[name] == helrune # # [MaxQuantity] == 3
 // [name] == iorune # # [MaxQuantity] == 1
 // [name] == lumrune # # [MaxQuantity] == 1
 // [name] == korune # # [MaxQuantity] == 1
@@ -44,28 +44,28 @@
 [type] == armor && [quality] == normal && [class] == elite && [flag] == ethereal # [sockets] == 3 && [defense] >= 1000 // Eth Bugged 2 soc 1k+ def
 
 // =============== Polearms
-[name] == greatpoleaxe && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 0 && [enhanceddamage] == 15
-[name] == giantthresher && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 0 && [enhanceddamage] == 15
+// [name] == greatpoleaxe && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 0 && [enhanceddamage] == 15
+// [name] == giantthresher && [quality] == superior && [flag] == ethereal && [class] == elite # [sockets] == 0 && [enhanceddamage] == 15
 
 // [name] == colossusvoulge && ([quality] == normal || [quality] == superior) && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 
 // [name] == thresher && [quality] == normal && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 // [name] == crypticaxe && [quality] == normal && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 // [name] == greatpoleaxe && [quality] == normal && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
-[name] == giantthresher && [quality] == normal && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
+// [name] == giantthresher && [quality] == normal && [flag] == ethereal # ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 
 // [name] == thresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
 // [name] == crypticaxe && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
 // [name] == greatpoleaxe && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
-[name] == giantthresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
+// [name] == giantthresher && ([quality] == normal || [quality] == superior) && [flag] == ethereal # [sockets] == 4 // # [maxquantity] == 1
 
 // =============== Shields
 // 45@ pally spirit bases and perfect defense non sup monarchs
-[name] == zakarumshield && ([quality] == normal || [quality] == superior) && [flag] != ethereal # [fireresist] >= 45 && ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
-[name] == vortexshield && ([quality] == normal || [quality] == superior) && [flag] != ethereal # [fireresist] >= 45 && ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
-[name] == sacredtarge && ([quality] == normal || [quality] == superior) && [flag] != ethereal # [fireresist] >= 45 && ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
-// [type] == auricshields && ([quality] == normal || [quality] == superior) && [flag] != ethereal  && [class] >= exceptional # [fireresist] >= 45 && ([sockets] == 4 || [sockets] == 0) // # [maxquantity] == 1
 // [name] == monarch && [quality] == normal && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [defense] == 148
+// [type] == auricshields && [quality] == normal && [class] == elite && [flag] != ethereal # [enhanceddamage] == 65 && [tohit] == 121 && [sockets] == 0 // Spirit, Phoenix, etc bases ed/ar
+// [type] == auricshields && [quality] == normal && [class] == elite && [flag] != ethereal # [enhanceddamage] == 65 && [tohit] == 121 && [sockets] == 4 // Spirit, Phoenix, etc bases ed/ar
+// [type] == auricshields && [quality] == normal && [class] == elite && [flag] != ethereal # [fireresist] >= 45 && [sockets] == 0 // Spirit, Phoenix, etc bases res
+// [type] == auricshields && [quality] == normal && [class] == elite && [flag] != ethereal # [fireresist] >= 45 && [sockets] == 4 // Spirit, Phoenix, etc bases res
 
 // =============== Maces
 // [name] == flail && ([quality] == normal || [quality] == superior) # [sockets] == 4 // # [maxquantity] == 1
@@ -79,25 +79,25 @@
 // =============== Tal Rasha's Wrappings
 // [name] == swirlingcrystal && [quality] == set # [skilllightningmastery] == 2 && [skillfiremastery] == 2 && [skillcoldmastery] == 2
 // [name] == deathmask && [quality] == set # [defense] == 131
-[name] == lacqueredplate && [quality] == set # [defense] == 541
+// [name] == lacqueredplate && [quality] == set # [defense] == 541
 // [name] == amulet && [quality] == set # [lightresist] == 33
 // [name] == meshbelt && [quality] == set # [itemmagicbonus] == 15 && [defense] == 40
 
 // =============== Aldur's Watchtower
-[name] == battleboots && [quality] == set # [defense] == 47 && [fireresist] == 50
+// [name] == battleboots && [quality] == set # [defense] == 47 && [fireresist] == 50
 
 // =============== Natalya's Odium
 // [name] == scissorssuwayyah && [quality] == set
-[name] == loricatedmail && [quality] == set # [defense] == 721 && [sockets] == 3
-[name] == grimhelm && [quality] == set # [defense] == 300 && [dexterity] == 30 && [strength] == 20 && [fireresist] == 20
-[name] == meshboots && [quality] == set # [defense] == 169 && [coldresist] == 25 && [lightresist] == 25
+// [name] == loricatedmail && [quality] == set # [defense] == 721 && [sockets] == 3
+// [name] == grimhelm && [quality] == set # [defense] == 300 && [dexterity] == 30 && [strength] == 20 && [fireresist] == 20
+// [name] == meshboots && [quality] == set # [defense] == 169 && [coldresist] == 25 && [lightresist] == 25
 
 // =============== Immortal King
 // [name] == warboots && [quality] == set # [defense] == 53
-[name] == warbelt && [quality] == set # [defense] == 52
-[name] == sacredarmor && [quality] == set
+// [name] == warbelt && [quality] == set # [defense] == 52
+// [name] == sacredarmor && [quality] == set
 // [name] == ogremaul && [quality] == set
-[name] == avengerguard && [quality] == set # [itemmagicbonus] == 40 && [defense] == 175
+// [name] == avengerguard && [quality] == set # [itemmagicbonus] == 40 && [defense] == 175
 
 // =============== Trang-Oul's Avatar
 //[name] == heavybracers && [quality] == set # [defense] == 74
@@ -105,9 +105,9 @@
 //[name] == bonevisage && [quality] == set # [defense] == 257
 
 // =============== Griswold's Legacy
-[name] == caduceus && [quality] == set # [enhanceddamage] == 240 && [sockets] == 4
-[name] == corona  && [quality] == set # [enhanceddefense] == 75 && [itemmagicbonus] == 30
-[name] == vortexshield && [quality] == set # [defense] == 333
+// [name] == caduceus && [quality] == set # [enhanceddamage] == 240 && [sockets] == 4
+// [name] == corona  && [quality] == set # [enhanceddefense] == 75 && [itemmagicbonus] == 30
+// [name] == vortexshield && [quality] == set # [defense] == 333
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -257,7 +257,9 @@
 
 // =============== Magic
 // [name] == bladetalons && [quality] == magic # ([assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4) && [ias] >= 10
-// ([type] == handtohand || [type] == assassinclaw) && [quality] == magic # ([assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4)
+// Testing sin claws
+[type] == assassinclaw # [assassinskills]+[skilllightningsentry] >= 4 || [trapsskilltab]+[skilllightningsentry] >= 4
+[type] == assassinclaw # [shadowdisciplinesskilltab] == 3 && ([skillvenom] == 3 || [skillfade] == 3)
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // >>>>>>>>>>>>>>> PALADIN
@@ -295,7 +297,7 @@
 // =============== Magic
 // [name] == smallcharm && [quality] == magic # [itemgoldbonus] == 10
 // [name] == smallcharm && [quality] == magic # [itemmagicbonus] == 7
-[name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 15
+// [name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 15
 // [name] == smallcharm && [quality] == magic # [maxhp] == 20
 
 // [name] == grandcharm && [quality] == magic # [elementalskilltab] == 1
@@ -317,4 +319,4 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // =============== Magic
-[Name] == jewel && [quality] == magic # [fireresist] >= 10 && [ias] == 15 // Merc andys jewel
+// [name] == jewel && [quality] == magic # [fireresist] >= 10 && [ias] == 15 // Merc andys jewel
