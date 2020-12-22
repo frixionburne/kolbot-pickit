@@ -279,6 +279,11 @@
 // [name] == ring && [quality] == unique # [itemabsorblightpercent] >= 10 // Any Wisp
 // [name] == ring && [quality] == unique # [dexterity] == 20 // Any 20dex Raven
 
+// =============== Magic
+// [name] == ring && [quality] == magic # [fcr] == 10 && [fireresist] >= 15 && [coldresist] >= 15 //Stack ring
+// [name] == ring && [quality] == magic # [fcr] == 10 && [maxmana] >= 100 //ES ring
+// [name] == ring && [quality] == magic # [itemmagicbonus] == 40 //Perfect MF magic ring
+
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // >>>>>>>>>>>>>>> AMULETS
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

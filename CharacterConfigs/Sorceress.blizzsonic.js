@@ -489,7 +489,9 @@ function LoadConfig() {
 	Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.NonEth]); // Make Spirit Crystal Sword
 	Config.Runewords.push([Runeword.Spirit, "Crystal Sword", Roll.Eth]); // Make Spirit Crystal Sword
 	Config.Runewords.push([Runeword.Spirit, "Long Sword", Roll.NonEth]); // Make Spirit Long Sword
+	Config.Runewords.push([Runeword.Spirit, "Long Sword", Roll.Eth]); // Make Spirit Long Sword
 	Config.Runewords.push([Runeword.Spirit, "Broad Sword", Roll.NonEth]); // Make Spirit Broad Sword
+	Config.Runewords.push([Runeword.Spirit, "Broad Sword", Roll.Eth]); // Make Spirit Broad Sword
 
 	Config.KeepRunewords.push("[type] == shield || [type] == auricshields || [type] == sword # [fcr] == 35");
 
