@@ -430,6 +430,8 @@ function LoadConfig() {
 	/* Base item for the following recipes must be in pickit. The rest of the ingredients will be auto-picked.
 	 * Use Roll.Eth, Roll.NonEth or Roll.All to determine what kind of base item to roll - ethereal, non-ethereal or all.
 	 */
+	Config.Recipes.push([Recipe.Socket.Shield, "Monarch", Roll.Eth]);
+
 	Config.Recipes.push([Recipe.Socket.Weapon, "Thresher", Roll.Eth]);
 	Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]);
 
