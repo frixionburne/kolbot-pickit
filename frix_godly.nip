@@ -36,8 +36,10 @@
 [type] == armor && [quality] == rare && [flag] == ethereal # [enhanceddefense] >= 150 && [sockets] == 2 && ([itemreplenishdurability] > 0 || [itemreplenishquantity] > 0)
 
 // =============== Magic
-[type] == armor && [quality] == magic && [class] == elite && [flag] != ethereal # [sockets] == 4 && ([fhr] == 24 || [maxhp] >= 100) // 160/60 base
-([name] == gothicplate || [name] == ancientarmor) && [quality] == magic && [flag] != ethereal # [sockets] == 4 && ([fhr] == 24 || [maxhp] >= 100) // 160/60 base
+// [type] == armor && [quality] == magic && [class] == elite && [flag] != ethereal # [sockets] == 4 && ([fhr] == 24 || [maxhp] >= 100) // 160/60 base
+// ([name] == gothicplate || [name] == ancientarmor) && [quality] == magic && [flag] != ethereal # [sockets] == 4 && ([fhr] == 24 || [maxhp] >= 100) // 160/60 base
+[type] == armor && [quality] == magic && [class] == elite && [flag] != ethereal # [sockets] == 4 && [maxhp] >= 100 // 160/60 base
+([name] == gothicplate || [name] == ancientarmor) && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [maxhp] >= 100 // 160/60 base
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -497,6 +497,10 @@ function LoadConfig() {
 
 	Config.KeepRunewords.push("[type] == shield || [type] == auricshields || [type] == sword # [fcr] == 35");
 
+	Config.Runewords.push([Runeword.Oath, "Small Crescent", Roll.Eth]); // Make ethereal Oath
+
+	Config.KeepRunewords.push("[type] == axe # [enhanceddamage] >= 350");
+
 	// Public game options
 
 	// If LocalChat is enabled, chat can be sent via 'sendCopyData' instead of BNET
