@@ -19,7 +19,7 @@
 // [name] == solrune # # [MaxQuantity] == 3
 // [name] == shaelrune # # [MaxQuantity] == 1
 // [name] == dolrune # # [MaxQuantity] == 1
-// [name] == helrune # # [MaxQuantity] == 3
+[name] == helrune # # [MaxQuantity] == 3
 // [name] == iorune # # [MaxQuantity] == 1
 // [name] == lumrune # # [MaxQuantity] == 1
 // [name] == korune # # [MaxQuantity] == 1
